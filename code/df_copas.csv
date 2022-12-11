@@ -1,0 +1,949 @@
+index,date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,year
+1311,1930-07-13,Belgium,United States,0.0,3.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1312,1930-07-13,France,Mexico,4.0,1.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1313,1930-07-14,Brazil,Yugoslavia,1.0,2.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1314,1930-07-14,Peru,Romania,1.0,3.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1315,1930-07-15,Argentina,France,1.0,0.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1316,1930-07-16,Chile,Mexico,3.0,0.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1317,1930-07-17,Bolivia,Yugoslavia,0.0,4.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1318,1930-07-17,Paraguay,United States,0.0,3.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1320,1930-07-18,Uruguay,Peru,1.0,0.0,FIFA World Cup,Montevideo,Uruguay,False,1930
+1321,1930-07-19,Argentina,Mexico,6.0,3.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1322,1930-07-19,Chile,France,1.0,0.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1323,1930-07-20,Belgium,Paraguay,0.0,1.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1324,1930-07-20,Bolivia,Brazil,0.0,4.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1325,1930-07-21,Uruguay,Romania,4.0,0.0,FIFA World Cup,Montevideo,Uruguay,False,1930
+1326,1930-07-22,Argentina,Chile,3.0,1.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1328,1930-07-26,Argentina,United States,6.0,1.0,FIFA World Cup,Montevideo,Uruguay,True,1930
+1329,1930-07-27,Uruguay,Yugoslavia,6.0,1.0,FIFA World Cup,Montevideo,Uruguay,False,1930
+1330,1930-07-30,Uruguay,Argentina,4.0,2.0,FIFA World Cup,Montevideo,Uruguay,False,1930
+1688,1934-05-27,Argentina,Sweden,2.0,3.0,FIFA World Cup,Bologna,Italy,True,1934
+1689,1934-05-27,Austria,France,3.0,2.0,FIFA World Cup,Turin,Italy,True,1934
+1690,1934-05-27,Belgium,Germany,2.0,5.0,FIFA World Cup,Florence,Italy,True,1934
+1691,1934-05-27,Brazil,Spain,1.0,3.0,FIFA World Cup,Genoa,Italy,True,1934
+1692,1934-05-27,Czechoslovakia,Romania,2.0,1.0,FIFA World Cup,Trieste,Italy,True,1934
+1693,1934-05-27,Egypt,Hungary,2.0,4.0,FIFA World Cup,Naples,Italy,True,1934
+1694,1934-05-27,Italy,United States,7.0,1.0,FIFA World Cup,Rome,Italy,False,1934
+1695,1934-05-27,Netherlands,Switzerland,2.0,3.0,FIFA World Cup,Milan,Italy,True,1934
+1696,1934-05-31,Austria,Hungary,2.0,1.0,FIFA World Cup,Bologna,Italy,True,1934
+1697,1934-05-31,Czechoslovakia,Switzerland,3.0,2.0,FIFA World Cup,Turin,Italy,True,1934
+1698,1934-05-31,Germany,Sweden,2.0,1.0,FIFA World Cup,Milan,Italy,True,1934
+1699,1934-05-31,Italy,Spain,1.0,1.0,FIFA World Cup,Florence,Italy,False,1934
+1700,1934-06-01,Italy,Spain,1.0,0.0,FIFA World Cup,Florence,Italy,False,1934
+1701,1934-06-03,Czechoslovakia,Germany,3.0,1.0,FIFA World Cup,Rome,Italy,True,1934
+1702,1934-06-03,Italy,Austria,1.0,0.0,FIFA World Cup,Milan,Italy,False,1934
+1704,1934-06-07,Austria,Germany,2.0,3.0,FIFA World Cup,Naples,Italy,True,1934
+1705,1934-06-10,Italy,Czechoslovakia,2.0,1.0,FIFA World Cup,Rome,Italy,False,1934
+2100,1938-06-04,Germany,Switzerland,1.0,1.0,FIFA World Cup,Paris,France,True,1938
+2101,1938-06-05,Brazil,Poland,6.0,5.0,FIFA World Cup,Strasbourg,France,True,1938
+2102,1938-06-05,Cuba,Romania,3.0,3.0,FIFA World Cup,Toulouse,France,True,1938
+2103,1938-06-05,Czechoslovakia,Netherlands,3.0,0.0,FIFA World Cup,Le Havre,France,True,1938
+2104,1938-06-05,France,Belgium,3.0,1.0,FIFA World Cup,Colombes,France,False,1938
+2105,1938-06-05,Hungary,Indonesia,6.0,0.0,FIFA World Cup,Reims,France,True,1938
+2106,1938-06-05,Italy,Norway,2.0,1.0,FIFA World Cup,Marseille,France,True,1938
+2107,1938-06-09,Cuba,Romania,2.0,1.0,FIFA World Cup,Toulouse,France,True,1938
+2108,1938-06-09,Germany,Switzerland,2.0,4.0,FIFA World Cup,Paris,France,True,1938
+2111,1938-06-12,Brazil,Czechoslovakia,1.0,1.0,FIFA World Cup,Bordeaux,France,True,1938
+2112,1938-06-12,Cuba,Sweden,0.0,8.0,FIFA World Cup,Antibes,France,True,1938
+2113,1938-06-12,France,Italy,1.0,3.0,FIFA World Cup,Colombes,France,False,1938
+2114,1938-06-12,Hungary,Switzerland,2.0,0.0,FIFA World Cup,Lille,France,True,1938
+2115,1938-06-14,Brazil,Czechoslovakia,2.0,1.0,FIFA World Cup,Bordeaux,France,True,1938
+2117,1938-06-16,Brazil,Italy,1.0,2.0,FIFA World Cup,Marseille,France,True,1938
+2118,1938-06-16,Hungary,Sweden,5.0,1.0,FIFA World Cup,Paris,France,True,1938
+2121,1938-06-19,Brazil,Sweden,4.0,2.0,FIFA World Cup,Bordeaux,France,True,1938
+2122,1938-06-19,Hungary,Italy,2.0,4.0,FIFA World Cup,Colombes,France,True,1938
+3128,1950-06-24,Brazil,Mexico,4.0,0.0,FIFA World Cup,Rio de Janeiro,Brazil,False,1950
+3130,1950-06-25,Chile,England,0.0,2.0,FIFA World Cup,Rio de Janeiro,Brazil,True,1950
+3132,1950-06-25,Italy,Sweden,2.0,3.0,FIFA World Cup,São Paulo,Brazil,True,1950
+3133,1950-06-25,Spain,United States,3.0,1.0,FIFA World Cup,Curitiba,Brazil,True,1950
+3134,1950-06-25,Switzerland,Yugoslavia,0.0,3.0,FIFA World Cup,Belo Horizonte,Brazil,True,1950
+3135,1950-06-28,Brazil,Switzerland,2.0,2.0,FIFA World Cup,São Paulo,Brazil,False,1950
+3136,1950-06-28,Mexico,Yugoslavia,1.0,4.0,FIFA World Cup,Porto Alegre,Brazil,True,1950
+3137,1950-06-29,Chile,Spain,0.0,2.0,FIFA World Cup,Rio de Janeiro,Brazil,True,1950
+3138,1950-06-29,England,United States,0.0,1.0,FIFA World Cup,Belo Horizonte,Brazil,True,1950
+3139,1950-06-29,Paraguay,Sweden,2.0,2.0,FIFA World Cup,Curitiba,Brazil,True,1950
+3140,1950-07-01,Brazil,Yugoslavia,2.0,0.0,FIFA World Cup,Rio de Janeiro,Brazil,False,1950
+3142,1950-07-02,Bolivia,Uruguay,0.0,8.0,FIFA World Cup,Belo Horizonte,Brazil,True,1950
+3143,1950-07-02,Chile,United States,5.0,2.0,FIFA World Cup,Recife,Brazil,True,1950
+3144,1950-07-02,England,Spain,0.0,1.0,FIFA World Cup,Rio de Janeiro,Brazil,True,1950
+3145,1950-07-02,Italy,Paraguay,2.0,0.0,FIFA World Cup,São Paulo,Brazil,True,1950
+3146,1950-07-02,Mexico,Switzerland,1.0,2.0,FIFA World Cup,Porto Alegre,Brazil,True,1950
+3148,1950-07-09,Brazil,Sweden,7.0,1.0,FIFA World Cup,Rio de Janeiro,Brazil,False,1950
+3149,1950-07-09,Spain,Uruguay,2.0,2.0,FIFA World Cup,São Paulo,Brazil,True,1950
+3152,1950-07-13,Brazil,Spain,6.0,1.0,FIFA World Cup,Rio de Janeiro,Brazil,False,1950
+3153,1950-07-13,Sweden,Uruguay,2.0,3.0,FIFA World Cup,São Paulo,Brazil,True,1950
+3154,1950-07-16,Brazil,Uruguay,1.0,2.0,FIFA World Cup,Rio de Janeiro,Brazil,False,1950
+3155,1950-07-16,Spain,Sweden,1.0,3.0,FIFA World Cup,São Paulo,Brazil,True,1950
+3661,1954-06-16,Austria,Scotland,1.0,0.0,FIFA World Cup,Zürich,Switzerland,True,1954
+3662,1954-06-16,Brazil,Mexico,5.0,0.0,FIFA World Cup,Geneva,Switzerland,True,1954
+3663,1954-06-16,Czechoslovakia,Uruguay,0.0,2.0,FIFA World Cup,Berne,Switzerland,True,1954
+3664,1954-06-16,France,Yugoslavia,0.0,1.0,FIFA World Cup,Lausanne,Switzerland,True,1954
+3665,1954-06-17,Belgium,England,4.0,4.0,FIFA World Cup,Basel,Switzerland,True,1954
+3666,1954-06-17,Germany,Turkey,4.0,1.0,FIFA World Cup,Berne,Switzerland,True,1954
+3667,1954-06-17,Hungary,South Korea,9.0,0.0,FIFA World Cup,Zürich,Switzerland,True,1954
+3668,1954-06-17,Switzerland,Italy,2.0,1.0,FIFA World Cup,Lausanne,Switzerland,False,1954
+3669,1954-06-19,Austria,Czechoslovakia,5.0,0.0,FIFA World Cup,Zürich,Switzerland,True,1954
+3670,1954-06-19,Brazil,Yugoslavia,1.0,1.0,FIFA World Cup,Lausanne,Switzerland,True,1954
+3671,1954-06-19,France,Mexico,3.0,2.0,FIFA World Cup,Geneva,Switzerland,True,1954
+3672,1954-06-19,Scotland,Uruguay,0.0,7.0,FIFA World Cup,Basel,Switzerland,True,1954
+3673,1954-06-20,Belgium,Italy,1.0,4.0,FIFA World Cup,Lugano,Switzerland,True,1954
+3674,1954-06-20,Germany,Hungary,3.0,8.0,FIFA World Cup,Basel,Switzerland,True,1954
+3675,1954-06-20,South Korea,Turkey,0.0,7.0,FIFA World Cup,Geneva,Switzerland,True,1954
+3676,1954-06-20,Switzerland,England,0.0,2.0,FIFA World Cup,Berne,Switzerland,False,1954
+3677,1954-06-23,Germany,Turkey,7.0,2.0,FIFA World Cup,Zürich,Switzerland,True,1954
+3678,1954-06-23,Switzerland,Italy,4.0,1.0,FIFA World Cup,Basel,Switzerland,False,1954
+3679,1954-06-26,England,Uruguay,2.0,4.0,FIFA World Cup,Basel,Switzerland,True,1954
+3680,1954-06-26,Switzerland,Austria,5.0,7.0,FIFA World Cup,Lausanne,Switzerland,False,1954
+3681,1954-06-27,Brazil,Hungary,2.0,4.0,FIFA World Cup,Berne,Switzerland,True,1954
+3682,1954-06-27,Germany,Yugoslavia,2.0,0.0,FIFA World Cup,Geneva,Switzerland,True,1954
+3683,1954-06-30,Austria,Germany,1.0,6.0,FIFA World Cup,Basel,Switzerland,True,1954
+3684,1954-06-30,Hungary,Uruguay,4.0,2.0,FIFA World Cup,Lausanne,Switzerland,True,1954
+3685,1954-07-03,Austria,Uruguay,3.0,1.0,FIFA World Cup,Zürich,Switzerland,True,1954
+3686,1954-07-04,Germany,Hungary,3.0,2.0,FIFA World Cup,Berne,Switzerland,True,1954
+4369,1958-06-08,Argentina,Germany,1.0,3.0,FIFA World Cup,Malmö,Sweden,True,1958
+4370,1958-06-08,Austria,Brazil,0.0,3.0,FIFA World Cup,Uddevalla,Sweden,True,1958
+4371,1958-06-08,Czechoslovakia,Northern Ireland,0.0,1.0,FIFA World Cup,Halmstad,Sweden,True,1958
+4372,1958-06-08,England,Russia,2.0,2.0,FIFA World Cup,Gothenburg,Sweden,True,1958
+4373,1958-06-08,France,Paraguay,7.0,3.0,FIFA World Cup,Norrköping,Sweden,True,1958
+4374,1958-06-08,Hungary,Wales,1.0,1.0,FIFA World Cup,Sandviken,Sweden,True,1958
+4375,1958-06-08,Scotland,Yugoslavia,1.0,1.0,FIFA World Cup,Västerås,Sweden,True,1958
+4376,1958-06-08,Sweden,Mexico,3.0,0.0,FIFA World Cup,Solna,Sweden,False,1958
+4377,1958-06-11,Argentina,Northern Ireland,3.0,1.0,FIFA World Cup,Halmstad,Sweden,True,1958
+4378,1958-06-11,Austria,Russia,0.0,2.0,FIFA World Cup,Borås,Sweden,True,1958
+4379,1958-06-11,Brazil,England,0.0,0.0,FIFA World Cup,Gothenburg,Sweden,True,1958
+4380,1958-06-11,Czechoslovakia,Germany,2.0,2.0,FIFA World Cup,Helsingborg,Sweden,True,1958
+4381,1958-06-11,France,Yugoslavia,2.0,3.0,FIFA World Cup,Västerås,Sweden,True,1958
+4382,1958-06-11,Mexico,Wales,1.0,1.0,FIFA World Cup,Solna,Sweden,True,1958
+4383,1958-06-11,Paraguay,Scotland,3.0,2.0,FIFA World Cup,Norrköping,Sweden,True,1958
+4384,1958-06-12,Sweden,Hungary,2.0,1.0,FIFA World Cup,Solna,Sweden,False,1958
+4385,1958-06-15,Argentina,Czechoslovakia,1.0,6.0,FIFA World Cup,Helsingborg,Sweden,True,1958
+4386,1958-06-15,Austria,England,2.0,2.0,FIFA World Cup,Borås,Sweden,True,1958
+4387,1958-06-15,Brazil,Russia,2.0,0.0,FIFA World Cup,Gothenburg,Sweden,True,1958
+4388,1958-06-15,France,Scotland,2.0,1.0,FIFA World Cup,Örebro,Sweden,True,1958
+4389,1958-06-15,Germany,Northern Ireland,2.0,2.0,FIFA World Cup,Malmö,Sweden,True,1958
+4390,1958-06-15,Hungary,Mexico,4.0,0.0,FIFA World Cup,Sandviken,Sweden,True,1958
+4392,1958-06-15,Paraguay,Yugoslavia,3.0,3.0,FIFA World Cup,Eskilstuna,Sweden,True,1958
+4393,1958-06-15,Sweden,Wales,0.0,0.0,FIFA World Cup,Solna,Sweden,False,1958
+4394,1958-06-17,Czechoslovakia,Northern Ireland,1.0,2.0,FIFA World Cup,Malmö,Sweden,True,1958
+4395,1958-06-17,England,Russia,0.0,1.0,FIFA World Cup,Gothenburg,Sweden,True,1958
+4396,1958-06-17,Hungary,Wales,1.0,2.0,FIFA World Cup,Solna,Sweden,True,1958
+4397,1958-06-19,Brazil,Wales,1.0,0.0,FIFA World Cup,Gothenburg,Sweden,True,1958
+4398,1958-06-19,France,Northern Ireland,4.0,0.0,FIFA World Cup,Norrköping,Sweden,True,1958
+4399,1958-06-19,Germany,Yugoslavia,1.0,0.0,FIFA World Cup,Malmö,Sweden,True,1958
+4400,1958-06-19,Sweden,Russia,2.0,0.0,FIFA World Cup,Solna,Sweden,False,1958
+4401,1958-06-24,Brazil,France,5.0,2.0,FIFA World Cup,Solna,Sweden,True,1958
+4402,1958-06-24,Sweden,Germany,3.0,1.0,FIFA World Cup,Gothenburg,Sweden,False,1958
+4403,1958-06-28,France,Germany,6.0,3.0,FIFA World Cup,Gothenburg,Sweden,True,1958
+4406,1958-06-29,Sweden,Brazil,2.0,5.0,FIFA World Cup,Solna,Sweden,False,1958
+5133,1962-05-30,Argentina,Bulgaria,1.0,0.0,FIFA World Cup,Rancagua,Chile,True,1962
+5134,1962-05-30,Brazil,Mexico,2.0,0.0,FIFA World Cup,Viña del Mar,Chile,True,1962
+5135,1962-05-30,Chile,Switzerland,3.0,1.0,FIFA World Cup,Santiago,Chile,False,1962
+5136,1962-05-30,Colombia,Uruguay,1.0,2.0,FIFA World Cup,Arica,Chile,True,1962
+5137,1962-05-31,Czechoslovakia,Spain,1.0,0.0,FIFA World Cup,Viña del Mar,Chile,True,1962
+5138,1962-05-31,England,Hungary,1.0,2.0,FIFA World Cup,Rancagua,Chile,True,1962
+5139,1962-05-31,Germany,Italy,0.0,0.0,FIFA World Cup,Santiago,Chile,True,1962
+5140,1962-05-31,Russia,Yugoslavia,2.0,0.0,FIFA World Cup,Arica,Chile,True,1962
+5141,1962-06-02,Argentina,England,1.0,3.0,FIFA World Cup,Rancagua,Chile,True,1962
+5142,1962-06-02,Brazil,Czechoslovakia,0.0,0.0,FIFA World Cup,Viña del Mar,Chile,True,1962
+5143,1962-06-02,Chile,Italy,2.0,0.0,FIFA World Cup,Santiago,Chile,False,1962
+5145,1962-06-02,Uruguay,Yugoslavia,1.0,3.0,FIFA World Cup,Arica,Chile,True,1962
+5146,1962-06-03,Bulgaria,Hungary,1.0,6.0,FIFA World Cup,Rancagua,Chile,True,1962
+5147,1962-06-03,Colombia,Russia,4.0,4.0,FIFA World Cup,Arica,Chile,True,1962
+5148,1962-06-03,Germany,Switzerland,2.0,1.0,FIFA World Cup,Santiago,Chile,True,1962
+5149,1962-06-03,Mexico,Spain,0.0,1.0,FIFA World Cup,Viña del Mar,Chile,True,1962
+5152,1962-06-06,Argentina,Hungary,0.0,0.0,FIFA World Cup,Rancagua,Chile,True,1962
+5153,1962-06-06,Brazil,Spain,2.0,1.0,FIFA World Cup,Viña del Mar,Chile,True,1962
+5154,1962-06-06,Chile,Germany,0.0,2.0,FIFA World Cup,Santiago,Chile,False,1962
+5155,1962-06-06,Russia,Uruguay,2.0,1.0,FIFA World Cup,Arica,Chile,True,1962
+5156,1962-06-07,Bulgaria,England,0.0,0.0,FIFA World Cup,Rancagua,Chile,True,1962
+5157,1962-06-07,Colombia,Yugoslavia,0.0,5.0,FIFA World Cup,Arica,Chile,True,1962
+5158,1962-06-07,Czechoslovakia,Mexico,1.0,3.0,FIFA World Cup,Viña del Mar,Chile,True,1962
+5159,1962-06-07,Italy,Switzerland,3.0,0.0,FIFA World Cup,Santiago,Chile,True,1962
+5161,1962-06-10,Brazil,England,3.0,1.0,FIFA World Cup,Viña del Mar,Chile,True,1962
+5162,1962-06-10,Chile,Russia,2.0,1.0,FIFA World Cup,Arica,Chile,False,1962
+5163,1962-06-10,Czechoslovakia,Hungary,1.0,0.0,FIFA World Cup,Rancagua,Chile,True,1962
+5164,1962-06-10,Germany,Yugoslavia,0.0,1.0,FIFA World Cup,Santiago,Chile,True,1962
+5166,1962-06-13,Chile,Brazil,2.0,4.0,FIFA World Cup,Santiago,Chile,False,1962
+5167,1962-06-13,Czechoslovakia,Yugoslavia,3.0,1.0,FIFA World Cup,Viña del Mar,Chile,True,1962
+5168,1962-06-16,Chile,Yugoslavia,1.0,0.0,FIFA World Cup,Santiago,Chile,False,1962
+5169,1962-06-17,Brazil,Czechoslovakia,3.0,1.0,FIFA World Cup,Santiago,Chile,True,1962
+6248,1966-07-11,England,Uruguay,0.0,0.0,FIFA World Cup,London,England,False,1966
+6249,1966-07-12,Brazil,Bulgaria,2.0,0.0,FIFA World Cup,Liverpool,England,True,1966
+6250,1966-07-12,Germany,Switzerland,5.0,0.0,FIFA World Cup,Sheffield,England,True,1966
+6251,1966-07-12,North Korea,Russia,0.0,3.0,FIFA World Cup,Middlesbrough,England,True,1966
+6252,1966-07-13,Argentina,Spain,2.0,1.0,FIFA World Cup,Birmingham,England,True,1966
+6253,1966-07-13,Chile,Italy,0.0,2.0,FIFA World Cup,Sunderland,England,True,1966
+6254,1966-07-13,France,Mexico,1.0,1.0,FIFA World Cup,London,England,True,1966
+6255,1966-07-13,Hungary,Portugal,1.0,3.0,FIFA World Cup,Manchester,England,True,1966
+6256,1966-07-15,Brazil,Hungary,1.0,3.0,FIFA World Cup,Liverpool,England,True,1966
+6257,1966-07-15,Chile,North Korea,1.0,1.0,FIFA World Cup,Middlesbrough,England,True,1966
+6258,1966-07-15,France,Uruguay,1.0,2.0,FIFA World Cup,London,England,True,1966
+6259,1966-07-15,Spain,Switzerland,2.0,1.0,FIFA World Cup,Sheffield,England,True,1966
+6260,1966-07-16,Argentina,Germany,0.0,0.0,FIFA World Cup,Birmingham,England,True,1966
+6261,1966-07-16,Bulgaria,Portugal,0.0,3.0,FIFA World Cup,Manchester,England,True,1966
+6262,1966-07-16,England,Mexico,2.0,0.0,FIFA World Cup,London,England,False,1966
+6263,1966-07-16,Italy,Russia,0.0,1.0,FIFA World Cup,Sunderland,England,True,1966
+6265,1966-07-19,Argentina,Switzerland,2.0,0.0,FIFA World Cup,Sheffield,England,True,1966
+6266,1966-07-19,Brazil,Portugal,1.0,3.0,FIFA World Cup,Liverpool,England,True,1966
+6267,1966-07-19,Italy,North Korea,0.0,1.0,FIFA World Cup,Middlesbrough,England,True,1966
+6268,1966-07-19,Mexico,Uruguay,0.0,0.0,FIFA World Cup,London,England,True,1966
+6269,1966-07-20,Bulgaria,Hungary,1.0,3.0,FIFA World Cup,Manchester,England,True,1966
+6270,1966-07-20,Chile,Russia,1.0,2.0,FIFA World Cup,Sunderland,England,True,1966
+6271,1966-07-20,England,France,2.0,0.0,FIFA World Cup,London,England,False,1966
+6272,1966-07-20,Germany,Spain,2.0,1.0,FIFA World Cup,Birmingham,England,True,1966
+6274,1966-07-23,England,Argentina,1.0,0.0,FIFA World Cup,London,England,False,1966
+6275,1966-07-23,Germany,Uruguay,4.0,0.0,FIFA World Cup,Sheffield,England,True,1966
+6276,1966-07-23,Hungary,Russia,1.0,2.0,FIFA World Cup,Sunderland,England,True,1966
+6277,1966-07-23,North Korea,Portugal,3.0,5.0,FIFA World Cup,Liverpool,England,True,1966
+6278,1966-07-25,Germany,Russia,2.0,1.0,FIFA World Cup,Liverpool,England,True,1966
+6279,1966-07-26,England,Portugal,2.0,1.0,FIFA World Cup,London,England,False,1966
+6280,1966-07-28,Portugal,Russia,2.0,1.0,FIFA World Cup,London,England,True,1966
+6281,1966-07-30,England,Germany,4.0,2.0,FIFA World Cup,London,England,False,1966
+7558,1970-05-31,Mexico,Russia,0.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1970
+7559,1970-06-02,Bulgaria,Peru,2.0,3.0,FIFA World Cup,León,Mexico,True,1970
+7560,1970-06-02,England,Romania,1.0,0.0,FIFA World Cup,Guadalajara,Mexico,True,1970
+7561,1970-06-02,Israel,Uruguay,0.0,2.0,FIFA World Cup,Puebla,Mexico,True,1970
+7562,1970-06-03,Belgium,El Salvador,3.0,0.0,FIFA World Cup,Mexico City,Mexico,True,1970
+7563,1970-06-03,Brazil,Czechoslovakia,4.0,1.0,FIFA World Cup,Guadalajara,Mexico,True,1970
+7565,1970-06-03,Germany,Morocco,2.0,1.0,FIFA World Cup,León,Mexico,True,1970
+7566,1970-06-03,Italy,Sweden,1.0,0.0,FIFA World Cup,Toluca,Mexico,True,1970
+7567,1970-06-06,Belgium,Russia,1.0,4.0,FIFA World Cup,Mexico City,Mexico,True,1970
+7568,1970-06-06,Czechoslovakia,Romania,1.0,2.0,FIFA World Cup,Guadalajara,Mexico,True,1970
+7569,1970-06-06,Italy,Uruguay,0.0,0.0,FIFA World Cup,Puebla,Mexico,True,1970
+7570,1970-06-06,Morocco,Peru,0.0,3.0,FIFA World Cup,León,Mexico,True,1970
+7572,1970-06-07,Brazil,England,1.0,0.0,FIFA World Cup,Guadalajara,Mexico,True,1970
+7573,1970-06-07,Bulgaria,Germany,2.0,5.0,FIFA World Cup,León,Mexico,True,1970
+7574,1970-06-07,Israel,Sweden,1.0,1.0,FIFA World Cup,Toluca,Mexico,True,1970
+7575,1970-06-07,Mexico,El Salvador,4.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1970
+7576,1970-06-10,Brazil,Romania,3.0,2.0,FIFA World Cup,Guadalajara,Mexico,True,1970
+7577,1970-06-10,El Salvador,Russia,0.0,2.0,FIFA World Cup,Mexico City,Mexico,True,1970
+7578,1970-06-10,Germany,Peru,3.0,1.0,FIFA World Cup,León,Mexico,True,1970
+7579,1970-06-10,Sweden,Uruguay,1.0,0.0,FIFA World Cup,Puebla,Mexico,True,1970
+7580,1970-06-11,Bulgaria,Morocco,1.0,1.0,FIFA World Cup,León,Mexico,True,1970
+7581,1970-06-11,Czechoslovakia,England,0.0,1.0,FIFA World Cup,Guadalajara,Mexico,True,1970
+7582,1970-06-11,Israel,Italy,0.0,0.0,FIFA World Cup,Toluca,Mexico,True,1970
+7583,1970-06-11,Mexico,Belgium,1.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1970
+7585,1970-06-14,Brazil,Peru,4.0,2.0,FIFA World Cup,Guadalajara,Mexico,True,1970
+7586,1970-06-14,England,Germany,2.0,3.0,FIFA World Cup,León,Mexico,True,1970
+7587,1970-06-14,Mexico,Italy,1.0,4.0,FIFA World Cup,Toluca,Mexico,False,1970
+7588,1970-06-14,Russia,Uruguay,0.0,1.0,FIFA World Cup,Mexico City,Mexico,True,1970
+7589,1970-06-17,Brazil,Uruguay,3.0,1.0,FIFA World Cup,Guadalajara,Mexico,True,1970
+7590,1970-06-17,Germany,Italy,3.0,4.0,FIFA World Cup,Mexico City,Mexico,True,1970
+7592,1970-06-20,Germany,Uruguay,1.0,0.0,FIFA World Cup,Mexico City,Mexico,True,1970
+7594,1970-06-21,Brazil,Italy,4.0,1.0,FIFA World Cup,Mexico City,Mexico,True,1970
+9197,1974-06-13,Brazil,Yugoslavia,0.0,0.0,FIFA World Cup,Frankfurt am Main,Germany,True,1974
+9198,1974-06-14,DR Congo,Scotland,0.0,2.0,FIFA World Cup,Dortmund,Germany,True,1974
+9199,1974-06-14,German DR,Australia,2.0,0.0,FIFA World Cup,Hamburg,Germany,True,1974
+9200,1974-06-14,Germany,Chile,1.0,0.0,FIFA World Cup,Berlin,Germany,False,1974
+9201,1974-06-15,Italy,Haiti,3.0,1.0,FIFA World Cup,Munich,Germany,True,1974
+9202,1974-06-15,Poland,Argentina,3.0,2.0,FIFA World Cup,Stuttgart,Germany,True,1974
+9203,1974-06-15,Sweden,Bulgaria,0.0,0.0,FIFA World Cup,Düsseldorf,Germany,True,1974
+9204,1974-06-15,Uruguay,Netherlands,0.0,2.0,FIFA World Cup,Hanover,Germany,True,1974
+9205,1974-06-18,Chile,German DR,1.0,1.0,FIFA World Cup,Berlin,Germany,True,1974
+9206,1974-06-18,Germany,Australia,3.0,0.0,FIFA World Cup,Hamburg,Germany,False,1974
+9207,1974-06-18,Scotland,Brazil,0.0,0.0,FIFA World Cup,Frankfurt am Main,Germany,True,1974
+9208,1974-06-18,Yugoslavia,DR Congo,9.0,0.0,FIFA World Cup,Gelsenkirchen,Germany,True,1974
+9209,1974-06-19,Argentina,Italy,1.0,1.0,FIFA World Cup,Stuttgart,Germany,True,1974
+9210,1974-06-19,Bulgaria,Uruguay,1.0,1.0,FIFA World Cup,Hanover,Germany,True,1974
+9211,1974-06-19,Haiti,Poland,0.0,7.0,FIFA World Cup,Munich,Germany,True,1974
+9212,1974-06-19,Netherlands,Sweden,0.0,0.0,FIFA World Cup,Dortmund,Germany,True,1974
+9213,1974-06-22,Australia,Chile,0.0,0.0,FIFA World Cup,Berlin,Germany,True,1974
+9214,1974-06-22,DR Congo,Brazil,0.0,3.0,FIFA World Cup,Gelsenkirchen,Germany,True,1974
+9215,1974-06-22,Germany,German DR,0.0,1.0,FIFA World Cup,Hamburg,Germany,False,1974
+9216,1974-06-22,Scotland,Yugoslavia,1.0,1.0,FIFA World Cup,Frankfurt am Main,Germany,True,1974
+9217,1974-06-23,Argentina,Haiti,4.0,1.0,FIFA World Cup,Munich,Germany,True,1974
+9218,1974-06-23,Bulgaria,Netherlands,1.0,4.0,FIFA World Cup,Dortmund,Germany,True,1974
+9219,1974-06-23,Poland,Italy,2.0,1.0,FIFA World Cup,Stuttgart,Germany,True,1974
+9220,1974-06-23,Sweden,Uruguay,3.0,0.0,FIFA World Cup,Düsseldorf,Germany,True,1974
+9221,1974-06-26,Brazil,German DR,1.0,0.0,FIFA World Cup,Hanover,Germany,True,1974
+9222,1974-06-26,Germany,Yugoslavia,2.0,0.0,FIFA World Cup,Düsseldorf,Germany,False,1974
+9224,1974-06-26,Netherlands,Argentina,4.0,0.0,FIFA World Cup,Gelsenkirchen,Germany,True,1974
+9225,1974-06-26,Sweden,Poland,0.0,1.0,FIFA World Cup,Stuttgart,Germany,True,1974
+9226,1974-06-30,Argentina,Brazil,1.0,2.0,FIFA World Cup,Hanover,Germany,True,1974
+9227,1974-06-30,German DR,Netherlands,0.0,2.0,FIFA World Cup,Gelsenkirchen,Germany,True,1974
+9228,1974-06-30,Germany,Sweden,4.0,2.0,FIFA World Cup,Düsseldorf,Germany,False,1974
+9229,1974-06-30,Poland,Yugoslavia,2.0,1.0,FIFA World Cup,Frankfurt am Main,Germany,True,1974
+9230,1974-07-03,Argentina,German DR,1.0,1.0,FIFA World Cup,Gelsenkirchen,Germany,True,1974
+9232,1974-07-03,Germany,Poland,1.0,0.0,FIFA World Cup,Frankfurt am Main,Germany,False,1974
+9233,1974-07-03,Netherlands,Brazil,2.0,0.0,FIFA World Cup,Dortmund,Germany,True,1974
+9234,1974-07-03,Sweden,Yugoslavia,2.0,1.0,FIFA World Cup,Düsseldorf,Germany,True,1974
+9236,1974-07-06,Brazil,Poland,0.0,1.0,FIFA World Cup,Munich,Germany,True,1974
+9238,1974-07-07,Germany,Netherlands,2.0,1.0,FIFA World Cup,Munich,Germany,False,1974
+10744,1978-06-01,Germany,Poland,0.0,0.0,FIFA World Cup,Buenos Aires,Argentina,True,1978
+10745,1978-06-02,Argentina,Hungary,2.0,1.0,FIFA World Cup,Buenos Aires,Argentina,False,1978
+10746,1978-06-02,France,Italy,1.0,2.0,FIFA World Cup,Mar del Plata,Argentina,True,1978
+10747,1978-06-02,Mexico,Tunisia,1.0,3.0,FIFA World Cup,Rosario,Argentina,True,1978
+10748,1978-06-03,Austria,Spain,2.0,1.0,FIFA World Cup,Buenos Aires,Argentina,True,1978
+10749,1978-06-03,Brazil,Sweden,1.0,1.0,FIFA World Cup,Mar del Plata,Argentina,True,1978
+10750,1978-06-03,Iran,Netherlands,0.0,3.0,FIFA World Cup,Mendoza,Argentina,True,1978
+10751,1978-06-03,Peru,Scotland,3.0,1.0,FIFA World Cup,Córdoba,Argentina,True,1978
+10752,1978-06-06,Argentina,France,2.0,1.0,FIFA World Cup,Buenos Aires,Argentina,False,1978
+10753,1978-06-06,Germany,Mexico,6.0,0.0,FIFA World Cup,Córdoba,Argentina,True,1978
+10754,1978-06-06,Hungary,Italy,1.0,3.0,FIFA World Cup,Mar del Plata,Argentina,True,1978
+10755,1978-06-06,Poland,Tunisia,1.0,0.0,FIFA World Cup,Rosario,Argentina,True,1978
+10756,1978-06-07,Austria,Sweden,1.0,0.0,FIFA World Cup,Buenos Aires,Argentina,True,1978
+10757,1978-06-07,Brazil,Spain,0.0,0.0,FIFA World Cup,Mar del Plata,Argentina,True,1978
+10758,1978-06-07,Iran,Scotland,1.0,1.0,FIFA World Cup,Córdoba,Argentina,True,1978
+10759,1978-06-07,Netherlands,Peru,0.0,0.0,FIFA World Cup,Mendoza,Argentina,True,1978
+10760,1978-06-10,Argentina,Italy,0.0,1.0,FIFA World Cup,Buenos Aires,Argentina,False,1978
+10761,1978-06-10,France,Hungary,3.0,1.0,FIFA World Cup,Mar del Plata,Argentina,True,1978
+10762,1978-06-10,Germany,Tunisia,0.0,0.0,FIFA World Cup,Córdoba,Argentina,True,1978
+10763,1978-06-10,Mexico,Poland,1.0,3.0,FIFA World Cup,Rosario,Argentina,True,1978
+10765,1978-06-11,Austria,Brazil,0.0,1.0,FIFA World Cup,Mar del Plata,Argentina,True,1978
+10766,1978-06-11,Iran,Peru,1.0,4.0,FIFA World Cup,Córdoba,Argentina,True,1978
+10768,1978-06-11,Netherlands,Scotland,2.0,3.0,FIFA World Cup,Mendoza,Argentina,True,1978
+10769,1978-06-11,Spain,Sweden,1.0,0.0,FIFA World Cup,Buenos Aires,Argentina,True,1978
+10771,1978-06-14,Argentina,Poland,2.0,0.0,FIFA World Cup,Rosario,Argentina,False,1978
+10773,1978-06-14,Austria,Netherlands,1.0,5.0,FIFA World Cup,Córdoba,Argentina,True,1978
+10774,1978-06-14,Brazil,Peru,3.0,0.0,FIFA World Cup,Mendoza,Argentina,True,1978
+10775,1978-06-14,Germany,Italy,0.0,0.0,FIFA World Cup,Buenos Aires,Argentina,True,1978
+10779,1978-06-18,Argentina,Brazil,0.0,0.0,FIFA World Cup,Rosario,Argentina,False,1978
+10780,1978-06-18,Austria,Italy,0.0,1.0,FIFA World Cup,Buenos Aires,Argentina,True,1978
+10781,1978-06-18,Germany,Netherlands,2.0,2.0,FIFA World Cup,Córdoba,Argentina,True,1978
+10783,1978-06-18,Peru,Poland,0.0,1.0,FIFA World Cup,Mendoza,Argentina,True,1978
+10784,1978-06-21,Argentina,Peru,6.0,0.0,FIFA World Cup,Rosario,Argentina,False,1978
+10785,1978-06-21,Austria,Germany,3.0,2.0,FIFA World Cup,Córdoba,Argentina,True,1978
+10786,1978-06-21,Brazil,Poland,3.0,1.0,FIFA World Cup,Mendoza,Argentina,True,1978
+10788,1978-06-21,Italy,Netherlands,1.0,2.0,FIFA World Cup,Buenos Aires,Argentina,True,1978
+10792,1978-06-24,Brazil,Italy,2.0,1.0,FIFA World Cup,Buenos Aires,Argentina,True,1978
+10793,1978-06-25,Argentina,Netherlands,3.0,1.0,FIFA World Cup,Buenos Aires,Argentina,False,1978
+12549,1982-06-13,Argentina,Belgium,0.0,1.0,FIFA World Cup,Barcelona,Spain,True,1982
+12552,1982-06-14,Brazil,Russia,2.0,1.0,FIFA World Cup,Seville,Spain,True,1982
+12553,1982-06-14,Italy,Poland,0.0,0.0,FIFA World Cup,Vigo,Spain,True,1982
+12554,1982-06-15,Hungary,El Salvador,10.0,1.0,FIFA World Cup,Elche,Spain,True,1982
+12556,1982-06-15,Peru,Cameroon,0.0,0.0,FIFA World Cup,La Coruña,Spain,True,1982
+12557,1982-06-15,Scotland,New Zealand,5.0,2.0,FIFA World Cup,Málaga,Spain,True,1982
+12558,1982-06-16,England,France,3.0,1.0,FIFA World Cup,Bilbao,Spain,True,1982
+12559,1982-06-16,Germany,Algeria,1.0,2.0,FIFA World Cup,Gijón,Spain,True,1982
+12560,1982-06-16,Spain,Honduras,1.0,1.0,FIFA World Cup,Valencia,Spain,False,1982
+12561,1982-06-17,Chile,Austria,0.0,1.0,FIFA World Cup,Oviedo,Spain,True,1982
+12562,1982-06-17,Czechoslovakia,Kuwait,1.0,1.0,FIFA World Cup,Valladolid,Spain,True,1982
+12563,1982-06-17,Yugoslavia,Northern Ireland,0.0,0.0,FIFA World Cup,Zaragoza,Spain,True,1982
+12564,1982-06-18,Argentina,Hungary,4.0,1.0,FIFA World Cup,Alicante,Spain,True,1982
+12565,1982-06-18,Brazil,Scotland,4.0,1.0,FIFA World Cup,Seville,Spain,True,1982
+12566,1982-06-18,Italy,Peru,1.0,1.0,FIFA World Cup,Vigo,Spain,True,1982
+12567,1982-06-19,Belgium,El Salvador,1.0,0.0,FIFA World Cup,Elche,Spain,True,1982
+12568,1982-06-19,Poland,Cameroon,0.0,0.0,FIFA World Cup,La Coruña,Spain,True,1982
+12569,1982-06-19,Russia,New Zealand,3.0,0.0,FIFA World Cup,Málaga,Spain,True,1982
+12570,1982-06-20,England,Czechoslovakia,2.0,0.0,FIFA World Cup,Bilbao,Spain,True,1982
+12571,1982-06-20,Germany,Chile,4.0,1.0,FIFA World Cup,Gijón,Spain,True,1982
+12572,1982-06-20,Spain,Yugoslavia,2.0,1.0,FIFA World Cup,Valencia,Spain,False,1982
+12573,1982-06-21,Algeria,Austria,0.0,2.0,FIFA World Cup,Oviedo,Spain,True,1982
+12574,1982-06-21,France,Kuwait,4.0,1.0,FIFA World Cup,Valladolid,Spain,True,1982
+12575,1982-06-21,Honduras,Northern Ireland,1.0,1.0,FIFA World Cup,Zaragoza,Spain,True,1982
+12576,1982-06-22,Belgium,Hungary,1.0,1.0,FIFA World Cup,Elche,Spain,True,1982
+12577,1982-06-22,Poland,Peru,5.0,1.0,FIFA World Cup,La Coruña,Spain,True,1982
+12578,1982-06-22,Russia,Scotland,2.0,2.0,FIFA World Cup,Málaga,Spain,True,1982
+12580,1982-06-23,Argentina,El Salvador,2.0,0.0,FIFA World Cup,Alicante,Spain,True,1982
+12581,1982-06-23,Brazil,New Zealand,4.0,0.0,FIFA World Cup,Seville,Spain,True,1982
+12582,1982-06-23,Italy,Cameroon,1.0,1.0,FIFA World Cup,Vigo,Spain,True,1982
+12583,1982-06-24,Algeria,Chile,3.0,2.0,FIFA World Cup,Oviedo,Spain,True,1982
+12584,1982-06-24,France,Czechoslovakia,1.0,1.0,FIFA World Cup,Valladolid,Spain,True,1982
+12585,1982-06-24,Honduras,Yugoslavia,0.0,1.0,FIFA World Cup,Zaragoza,Spain,True,1982
+12586,1982-06-25,England,Kuwait,1.0,0.0,FIFA World Cup,Bilbao,Spain,True,1982
+12587,1982-06-25,Germany,Austria,1.0,0.0,FIFA World Cup,Gijón,Spain,True,1982
+12588,1982-06-25,Spain,Northern Ireland,0.0,1.0,FIFA World Cup,Valencia,Spain,False,1982
+12592,1982-06-28,Austria,France,0.0,1.0,FIFA World Cup,Madrid,Spain,True,1982
+12593,1982-06-28,Poland,Belgium,3.0,0.0,FIFA World Cup,Barcelona,Spain,True,1982
+12594,1982-06-29,Germany,England,0.0,0.0,FIFA World Cup,Madrid,Spain,True,1982
+12595,1982-06-29,Italy,Argentina,2.0,1.0,FIFA World Cup,Barcelona,Spain,True,1982
+12596,1982-07-01,Austria,Northern Ireland,2.0,2.0,FIFA World Cup,Madrid,Spain,True,1982
+12597,1982-07-01,Belgium,Russia,0.0,1.0,FIFA World Cup,Barcelona,Spain,True,1982
+12598,1982-07-02,Argentina,Brazil,1.0,3.0,FIFA World Cup,Barcelona,Spain,True,1982
+12599,1982-07-02,Spain,Germany,1.0,2.0,FIFA World Cup,Madrid,Spain,False,1982
+12600,1982-07-04,France,Northern Ireland,4.0,1.0,FIFA World Cup,Madrid,Spain,True,1982
+12601,1982-07-04,Poland,Russia,0.0,0.0,FIFA World Cup,Barcelona,Spain,True,1982
+12602,1982-07-05,Italy,Brazil,3.0,2.0,FIFA World Cup,Barcelona,Spain,True,1982
+12603,1982-07-05,Spain,England,0.0,0.0,FIFA World Cup,Madrid,Spain,False,1982
+12605,1982-07-08,Germany,France,3.0,3.0,FIFA World Cup,Seville,Spain,True,1982
+12607,1982-07-08,Poland,Italy,0.0,2.0,FIFA World Cup,Barcelona,Spain,True,1982
+12608,1982-07-10,Poland,France,3.0,2.0,FIFA World Cup,Alicante,Spain,True,1982
+12610,1982-07-11,Italy,Germany,3.0,1.0,FIFA World Cup,Madrid,Spain,True,1982
+14486,1986-05-31,Bulgaria,Italy,1.0,1.0,FIFA World Cup,Mexico City,Mexico,True,1986
+14488,1986-06-01,Canada,France,0.0,1.0,FIFA World Cup,León,Mexico,True,1986
+14489,1986-06-01,Spain,Brazil,0.0,1.0,FIFA World Cup,Guadalajara,Mexico,True,1986
+14490,1986-06-02,Argentina,South Korea,3.0,1.0,FIFA World Cup,Mexico City,Mexico,True,1986
+14491,1986-06-02,Morocco,Poland,0.0,0.0,FIFA World Cup,Monterrey,Mexico,True,1986
+14492,1986-06-02,Russia,Hungary,6.0,0.0,FIFA World Cup,Irapuato,Mexico,True,1986
+14493,1986-06-03,Algeria,Northern Ireland,1.0,1.0,FIFA World Cup,Guadalajara,Mexico,True,1986
+14495,1986-06-03,Mexico,Belgium,2.0,1.0,FIFA World Cup,Mexico City,Mexico,False,1986
+14496,1986-06-03,Portugal,England,1.0,0.0,FIFA World Cup,Monterrey,Mexico,True,1986
+14498,1986-06-04,Paraguay,Iraq,1.0,0.0,FIFA World Cup,Toluca,Mexico,True,1986
+14500,1986-06-04,Scotland,Denmark,0.0,1.0,FIFA World Cup,Nezahualcóyotl,Mexico,True,1986
+14501,1986-06-04,Uruguay,Germany,1.0,1.0,FIFA World Cup,Querétaro,Mexico,True,1986
+14502,1986-06-05,France,Russia,1.0,1.0,FIFA World Cup,León,Mexico,True,1986
+14503,1986-06-05,Italy,Argentina,1.0,1.0,FIFA World Cup,Puebla,Mexico,True,1986
+14504,1986-06-05,South Korea,Bulgaria,1.0,1.0,FIFA World Cup,Mexico City,Mexico,True,1986
+14505,1986-06-06,Brazil,Algeria,1.0,0.0,FIFA World Cup,Guadalajara,Mexico,True,1986
+14506,1986-06-06,England,Morocco,0.0,0.0,FIFA World Cup,Monterrey,Mexico,True,1986
+14507,1986-06-06,Hungary,Canada,2.0,0.0,FIFA World Cup,Irapuato,Mexico,True,1986
+14509,1986-06-07,Mexico,Paraguay,1.0,1.0,FIFA World Cup,Mexico City,Mexico,False,1986
+14511,1986-06-07,Northern Ireland,Spain,1.0,2.0,FIFA World Cup,Guadalajara,Mexico,True,1986
+14512,1986-06-07,Poland,Portugal,1.0,0.0,FIFA World Cup,Monterrey,Mexico,True,1986
+14513,1986-06-08,Denmark,Uruguay,6.0,1.0,FIFA World Cup,Nezahualcóyotl,Mexico,True,1986
+14514,1986-06-08,Germany,Scotland,2.0,1.0,FIFA World Cup,Querétaro,Mexico,True,1986
+14515,1986-06-08,Iraq,Belgium,1.0,2.0,FIFA World Cup,Toluca,Mexico,True,1986
+14516,1986-06-09,Hungary,France,0.0,3.0,FIFA World Cup,León,Mexico,True,1986
+14517,1986-06-09,Russia,Canada,2.0,0.0,FIFA World Cup,Irapuato,Mexico,True,1986
+14518,1986-06-10,Argentina,Bulgaria,2.0,0.0,FIFA World Cup,Mexico City,Mexico,True,1986
+14519,1986-06-10,South Korea,Italy,2.0,3.0,FIFA World Cup,Puebla,Mexico,True,1986
+14520,1986-06-11,England,Poland,3.0,0.0,FIFA World Cup,Monterrey,Mexico,True,1986
+14522,1986-06-11,Mexico,Iraq,1.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1986
+14523,1986-06-11,Paraguay,Belgium,2.0,2.0,FIFA World Cup,Toluca,Mexico,True,1986
+14524,1986-06-11,Portugal,Morocco,1.0,3.0,FIFA World Cup,Guadalajara,Mexico,True,1986
+14525,1986-06-12,Algeria,Spain,0.0,3.0,FIFA World Cup,Monterrey,Mexico,True,1986
+14526,1986-06-12,Northern Ireland,Brazil,0.0,3.0,FIFA World Cup,Guadalajara,Mexico,True,1986
+14527,1986-06-13,Denmark,Germany,2.0,0.0,FIFA World Cup,Querétaro,Mexico,True,1986
+14529,1986-06-13,Scotland,Uruguay,0.0,0.0,FIFA World Cup,Nezahualcóyotl,Mexico,True,1986
+14530,1986-06-15,Mexico,Bulgaria,2.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1986
+14531,1986-06-15,Russia,Belgium,3.0,4.0,FIFA World Cup,León,Mexico,True,1986
+14532,1986-06-16,Argentina,Uruguay,1.0,0.0,FIFA World Cup,Puebla,Mexico,True,1986
+14533,1986-06-16,Brazil,Poland,4.0,0.0,FIFA World Cup,Guadalajara,Mexico,True,1986
+14534,1986-06-17,Italy,France,0.0,2.0,FIFA World Cup,Mexico City,Mexico,True,1986
+14535,1986-06-17,Morocco,Germany,0.0,1.0,FIFA World Cup,Monterrey,Mexico,True,1986
+14536,1986-06-18,Denmark,Spain,1.0,5.0,FIFA World Cup,Querétaro,Mexico,True,1986
+14537,1986-06-18,England,Paraguay,3.0,0.0,FIFA World Cup,Mexico City,Mexico,True,1986
+14538,1986-06-21,Brazil,France,1.0,1.0,FIFA World Cup,Guadalajara,Mexico,True,1986
+14540,1986-06-21,Mexico,Germany,0.0,0.0,FIFA World Cup,Monterrey,Mexico,False,1986
+14541,1986-06-22,Argentina,England,2.0,1.0,FIFA World Cup,Mexico City,Mexico,True,1986
+14543,1986-06-22,Spain,Belgium,1.0,1.0,FIFA World Cup,Puebla,Mexico,True,1986
+14544,1986-06-25,Argentina,Belgium,2.0,0.0,FIFA World Cup,Mexico City,Mexico,True,1986
+14545,1986-06-25,France,Germany,0.0,2.0,FIFA World Cup,Guadalajara,Mexico,True,1986
+14546,1986-06-28,France,Belgium,4.0,2.0,FIFA World Cup,Puebla,Mexico,True,1986
+14547,1986-06-29,Argentina,Germany,3.0,2.0,FIFA World Cup,Mexico City,Mexico,True,1986
+16382,1990-06-08,Argentina,Cameroon,0.0,1.0,FIFA World Cup,Milan,Italy,True,1990
+16383,1990-06-09,Italy,Austria,1.0,0.0,FIFA World Cup,Rome,Italy,False,1990
+16384,1990-06-09,Russia,Romania,0.0,2.0,FIFA World Cup,Bari,Italy,True,1990
+16385,1990-06-09,United Arab Emirates,Colombia,0.0,2.0,FIFA World Cup,Bologna,Italy,True,1990
+16387,1990-06-10,Brazil,Sweden,2.0,1.0,FIFA World Cup,Turin,Italy,True,1990
+16388,1990-06-10,Germany,Yugoslavia,4.0,1.0,FIFA World Cup,Milan,Italy,True,1990
+16389,1990-06-10,United States,Czechoslovakia,1.0,5.0,FIFA World Cup,Florence,Italy,True,1990
+16390,1990-06-11,Costa Rica,Scotland,1.0,0.0,FIFA World Cup,Genoa,Italy,True,1990
+16391,1990-06-11,England,Republic of Ireland,1.0,1.0,FIFA World Cup,Cagliari,Italy,True,1990
+16392,1990-06-12,Belgium,South Korea,2.0,0.0,FIFA World Cup,Verona,Italy,True,1990
+16393,1990-06-12,Netherlands,Egypt,1.0,1.0,FIFA World Cup,Palermo,Italy,True,1990
+16394,1990-06-13,Argentina,Russia,2.0,0.0,FIFA World Cup,Naples,Italy,True,1990
+16395,1990-06-13,Uruguay,Spain,0.0,0.0,FIFA World Cup,Udine,Italy,True,1990
+16396,1990-06-14,Cameroon,Romania,2.0,1.0,FIFA World Cup,Bari,Italy,True,1990
+16397,1990-06-14,Italy,United States,1.0,0.0,FIFA World Cup,Rome,Italy,False,1990
+16398,1990-06-14,Yugoslavia,Colombia,1.0,0.0,FIFA World Cup,Bologna,Italy,True,1990
+16399,1990-06-15,Austria,Czechoslovakia,0.0,1.0,FIFA World Cup,Florence,Italy,True,1990
+16400,1990-06-15,Germany,United Arab Emirates,5.0,1.0,FIFA World Cup,Milan,Italy,True,1990
+16401,1990-06-16,Brazil,Costa Rica,1.0,0.0,FIFA World Cup,Turin,Italy,True,1990
+16402,1990-06-16,England,Netherlands,0.0,0.0,FIFA World Cup,Cagliari,Italy,True,1990
+16403,1990-06-16,Sweden,Scotland,1.0,2.0,FIFA World Cup,Genoa,Italy,True,1990
+16404,1990-06-17,Belgium,Uruguay,3.0,1.0,FIFA World Cup,Verona,Italy,True,1990
+16405,1990-06-17,Republic of Ireland,Egypt,0.0,0.0,FIFA World Cup,Palermo,Italy,True,1990
+16406,1990-06-17,South Korea,Spain,1.0,3.0,FIFA World Cup,Udine,Italy,True,1990
+16407,1990-06-18,Argentina,Romania,1.0,1.0,FIFA World Cup,Naples,Italy,True,1990
+16408,1990-06-18,Cameroon,Russia,0.0,4.0,FIFA World Cup,Bari,Italy,True,1990
+16409,1990-06-19,Austria,United States,2.0,1.0,FIFA World Cup,Florence,Italy,True,1990
+16410,1990-06-19,Germany,Colombia,1.0,1.0,FIFA World Cup,Milan,Italy,True,1990
+16411,1990-06-19,Italy,Czechoslovakia,2.0,0.0,FIFA World Cup,Rome,Italy,False,1990
+16412,1990-06-19,Yugoslavia,United Arab Emirates,4.0,1.0,FIFA World Cup,Bologna,Italy,True,1990
+16413,1990-06-20,Brazil,Scotland,1.0,0.0,FIFA World Cup,Turin,Italy,True,1990
+16414,1990-06-20,Sweden,Costa Rica,1.0,2.0,FIFA World Cup,Genoa,Italy,True,1990
+16415,1990-06-21,Belgium,Spain,1.0,2.0,FIFA World Cup,Verona,Italy,True,1990
+16416,1990-06-21,England,Egypt,1.0,0.0,FIFA World Cup,Cagliari,Italy,True,1990
+16417,1990-06-21,Republic of Ireland,Netherlands,1.0,1.0,FIFA World Cup,Palermo,Italy,True,1990
+16418,1990-06-21,South Korea,Uruguay,0.0,1.0,FIFA World Cup,Udine,Italy,True,1990
+16419,1990-06-23,Cameroon,Colombia,2.0,1.0,FIFA World Cup,Naples,Italy,True,1990
+16420,1990-06-23,Czechoslovakia,Costa Rica,4.0,1.0,FIFA World Cup,Bari,Italy,True,1990
+16421,1990-06-24,Brazil,Argentina,0.0,1.0,FIFA World Cup,Turin,Italy,True,1990
+16422,1990-06-24,Germany,Netherlands,2.0,1.0,FIFA World Cup,Milan,Italy,True,1990
+16423,1990-06-25,Republic of Ireland,Romania,0.0,0.0,FIFA World Cup,Genoa,Italy,True,1990
+16424,1990-06-25,Italy,Uruguay,2.0,0.0,FIFA World Cup,Rome,Italy,False,1990
+16425,1990-06-26,England,Belgium,1.0,0.0,FIFA World Cup,Bologna,Italy,True,1990
+16426,1990-06-26,Spain,Yugoslavia,1.0,2.0,FIFA World Cup,Verona,Italy,True,1990
+16427,1990-06-30,Italy,Republic of Ireland,1.0,0.0,FIFA World Cup,Rome,Italy,False,1990
+16428,1990-06-30,Yugoslavia,Argentina,0.0,0.0,FIFA World Cup,Florence,Italy,True,1990
+16429,1990-07-01,Cameroon,England,2.0,3.0,FIFA World Cup,Naples,Italy,True,1990
+16430,1990-07-01,Germany,Czechoslovakia,1.0,0.0,FIFA World Cup,Milan,Italy,True,1990
+16431,1990-07-03,Italy,Argentina,1.0,1.0,FIFA World Cup,Naples,Italy,False,1990
+16432,1990-07-04,Germany,England,1.0,1.0,FIFA World Cup,Turin,Italy,True,1990
+16434,1990-07-07,Italy,England,2.0,1.0,FIFA World Cup,Bari,Italy,False,1990
+16435,1990-07-08,Germany,Argentina,1.0,0.0,FIFA World Cup,Rome,Italy,True,1990
+18694,1994-06-17,Germany,Bolivia,1.0,0.0,FIFA World Cup,Chicago,United States,True,1994
+18695,1994-06-17,Spain,South Korea,2.0,2.0,FIFA World Cup,Dallas,United States,True,1994
+18696,1994-06-18,Colombia,Romania,1.0,3.0,FIFA World Cup,Pasadena,United States,True,1994
+18697,1994-06-18,Italy,Republic of Ireland,0.0,1.0,FIFA World Cup,East Rutherford,United States,True,1994
+18698,1994-06-18,United States,Switzerland,1.0,1.0,FIFA World Cup,Pontiac,United States,False,1994
+18699,1994-06-19,Belgium,Morocco,1.0,0.0,FIFA World Cup,Orlando,United States,True,1994
+18700,1994-06-19,Cameroon,Sweden,2.0,2.0,FIFA World Cup,Pasadena,United States,True,1994
+18701,1994-06-19,Norway,Mexico,1.0,0.0,FIFA World Cup,Washington,United States,True,1994
+18702,1994-06-20,Brazil,Russia,2.0,0.0,FIFA World Cup,Palo Alto,United States,True,1994
+18703,1994-06-20,Netherlands,Saudi Arabia,2.0,1.0,FIFA World Cup,Washington,United States,True,1994
+18704,1994-06-21,Argentina,Greece,4.0,0.0,FIFA World Cup,Foxborough,United States,True,1994
+18705,1994-06-21,Germany,Spain,1.0,1.0,FIFA World Cup,Chicago,United States,True,1994
+18706,1994-06-21,Nigeria,Bulgaria,3.0,0.0,FIFA World Cup,Dallas,United States,True,1994
+18707,1994-06-22,Romania,Switzerland,1.0,4.0,FIFA World Cup,Pontiac,United States,True,1994
+18708,1994-06-22,United States,Colombia,2.0,1.0,FIFA World Cup,Pasadena,United States,False,1994
+18709,1994-06-23,Italy,Norway,1.0,0.0,FIFA World Cup,East Rutherford,United States,True,1994
+18710,1994-06-23,South Korea,Bolivia,0.0,0.0,FIFA World Cup,Foxborough,United States,True,1994
+18711,1994-06-24,Brazil,Cameroon,3.0,0.0,FIFA World Cup,Palo Alto,United States,True,1994
+18712,1994-06-24,Mexico,Republic of Ireland,2.0,1.0,FIFA World Cup,Orlando,United States,True,1994
+18713,1994-06-24,Sweden,Russia,3.0,1.0,FIFA World Cup,Pontiac,United States,True,1994
+18714,1994-06-25,Argentina,Nigeria,2.0,1.0,FIFA World Cup,Foxborough,United States,True,1994
+18715,1994-06-25,Belgium,Netherlands,1.0,0.0,FIFA World Cup,Orlando,United States,True,1994
+18716,1994-06-25,Saudi Arabia,Morocco,2.0,1.0,FIFA World Cup,East Rutherford,United States,True,1994
+18717,1994-06-26,Bulgaria,Greece,4.0,0.0,FIFA World Cup,Chicago,United States,True,1994
+18719,1994-06-26,Switzerland,Colombia,0.0,2.0,FIFA World Cup,Palo Alto,United States,True,1994
+18720,1994-06-26,United States,Romania,0.0,1.0,FIFA World Cup,Pasadena,United States,False,1994
+18721,1994-06-27,Bolivia,Spain,1.0,3.0,FIFA World Cup,Chicago,United States,True,1994
+18722,1994-06-27,Germany,South Korea,3.0,2.0,FIFA World Cup,Dallas,United States,True,1994
+18723,1994-06-28,Brazil,Sweden,1.0,1.0,FIFA World Cup,Pontiac,United States,True,1994
+18724,1994-06-28,Republic of Ireland,Norway,0.0,0.0,FIFA World Cup,East Rutherford,United States,True,1994
+18725,1994-06-28,Italy,Mexico,1.0,1.0,FIFA World Cup,Washington,United States,True,1994
+18726,1994-06-28,Russia,Cameroon,6.0,1.0,FIFA World Cup,Palo Alto,United States,True,1994
+18727,1994-06-29,Belgium,Saudi Arabia,0.0,1.0,FIFA World Cup,Washington,United States,True,1994
+18728,1994-06-29,Morocco,Netherlands,1.0,2.0,FIFA World Cup,Orlando,United States,True,1994
+18729,1994-06-30,Argentina,Bulgaria,0.0,2.0,FIFA World Cup,Dallas,United States,True,1994
+18730,1994-06-30,Greece,Nigeria,0.0,2.0,FIFA World Cup,Foxborough,United States,True,1994
+18732,1994-07-02,Germany,Belgium,3.0,2.0,FIFA World Cup,Chicago,United States,True,1994
+18733,1994-07-02,Spain,Switzerland,3.0,0.0,FIFA World Cup,Washington,United States,True,1994
+18735,1994-07-03,Romania,Argentina,3.0,2.0,FIFA World Cup,Pasadena,United States,True,1994
+18736,1994-07-03,Saudi Arabia,Sweden,1.0,3.0,FIFA World Cup,Dallas,United States,True,1994
+18738,1994-07-04,Netherlands,Republic of Ireland,2.0,0.0,FIFA World Cup,Orlando,United States,True,1994
+18739,1994-07-04,United States,Brazil,0.0,1.0,FIFA World Cup,Palo Alto,United States,False,1994
+18740,1994-07-05,Mexico,Bulgaria,1.0,1.0,FIFA World Cup,East Rutherford,United States,True,1994
+18741,1994-07-05,Nigeria,Italy,1.0,2.0,FIFA World Cup,Foxborough,United States,True,1994
+18751,1994-07-09,Italy,Spain,2.0,1.0,FIFA World Cup,Foxborough,United States,True,1994
+18752,1994-07-09,Netherlands,Brazil,2.0,3.0,FIFA World Cup,Dallas,United States,True,1994
+18753,1994-07-10,Bulgaria,Germany,2.0,1.0,FIFA World Cup,East Rutherford,United States,True,1994
+18754,1994-07-10,Romania,Sweden,2.0,2.0,FIFA World Cup,Palo Alto,United States,True,1994
+18755,1994-07-13,Bulgaria,Italy,1.0,2.0,FIFA World Cup,East Rutherford,United States,True,1994
+18756,1994-07-13,Sweden,Brazil,0.0,1.0,FIFA World Cup,Pasadena,United States,True,1994
+18759,1994-07-16,Sweden,Bulgaria,4.0,0.0,FIFA World Cup,Pasadena,United States,True,1994
+18760,1994-07-17,Brazil,Italy,0.0,0.0,FIFA World Cup,Pasadena,United States,True,1994
+21633,1998-06-10,Brazil,Scotland,2.0,1.0,FIFA World Cup,Saint-Denis,France,True,1998
+21634,1998-06-10,Morocco,Norway,2.0,2.0,FIFA World Cup,Montpellier,France,True,1998
+21635,1998-06-11,Cameroon,Austria,1.0,1.0,FIFA World Cup,Toulouse,France,True,1998
+21636,1998-06-11,Italy,Chile,2.0,2.0,FIFA World Cup,Bordeaux,France,True,1998
+21637,1998-06-12,France,South Africa,3.0,0.0,FIFA World Cup,Marseille,France,False,1998
+21638,1998-06-12,Paraguay,Bulgaria,0.0,0.0,FIFA World Cup,Montpellier,France,True,1998
+21639,1998-06-12,Saudi Arabia,Denmark,0.0,1.0,FIFA World Cup,Lens,France,True,1998
+21640,1998-06-13,South Korea,Mexico,1.0,3.0,FIFA World Cup,Lyon,France,True,1998
+21641,1998-06-13,Netherlands,Belgium,0.0,0.0,FIFA World Cup,Saint-Denis,France,True,1998
+21643,1998-06-13,Spain,Nigeria,2.0,3.0,FIFA World Cup,Nantes,France,True,1998
+21644,1998-06-14,Argentina,Japan,1.0,0.0,FIFA World Cup,Toulouse,France,True,1998
+21645,1998-06-14,Jamaica,Croatia,1.0,3.0,FIFA World Cup,Lens,France,True,1998
+21646,1998-06-14,Serbia,Iran,1.0,0.0,FIFA World Cup,Saint-Étienne,France,True,1998
+21647,1998-06-15,England,Tunisia,2.0,0.0,FIFA World Cup,Marseille,France,True,1998
+21648,1998-06-15,Germany,United States,2.0,0.0,FIFA World Cup,Paris,France,True,1998
+21649,1998-06-15,Romania,Colombia,1.0,0.0,FIFA World Cup,Lyon,France,True,1998
+21650,1998-06-16,Brazil,Morocco,3.0,0.0,FIFA World Cup,Nantes,France,True,1998
+21651,1998-06-16,Scotland,Norway,1.0,1.0,FIFA World Cup,Bordeaux,France,True,1998
+21652,1998-06-17,Chile,Austria,1.0,1.0,FIFA World Cup,Saint-Étienne,France,True,1998
+21653,1998-06-17,Italy,Cameroon,3.0,0.0,FIFA World Cup,Montpellier,France,True,1998
+21654,1998-06-18,France,Saudi Arabia,4.0,0.0,FIFA World Cup,Saint-Denis,France,False,1998
+21655,1998-06-18,South Africa,Denmark,1.0,1.0,FIFA World Cup,Toulouse,France,True,1998
+21656,1998-06-19,Nigeria,Bulgaria,1.0,0.0,FIFA World Cup,Paris,France,True,1998
+21657,1998-06-19,Spain,Paraguay,0.0,0.0,FIFA World Cup,Saint-Étienne,France,True,1998
+21658,1998-06-20,Belgium,Mexico,2.0,2.0,FIFA World Cup,Bordeaux,France,True,1998
+21659,1998-06-20,Japan,Croatia,0.0,1.0,FIFA World Cup,Nantes,France,True,1998
+21660,1998-06-20,Netherlands,South Korea,5.0,0.0,FIFA World Cup,Marseille,France,True,1998
+21661,1998-06-21,Argentina,Jamaica,5.0,0.0,FIFA World Cup,Paris,France,True,1998
+21662,1998-06-21,Germany,Serbia,2.0,2.0,FIFA World Cup,Lens,France,True,1998
+21663,1998-06-21,United States,Iran,1.0,2.0,FIFA World Cup,Lyon,France,True,1998
+21664,1998-06-22,Colombia,Tunisia,1.0,0.0,FIFA World Cup,Montpellier,France,True,1998
+21666,1998-06-22,Romania,England,2.0,1.0,FIFA World Cup,Toulouse,France,True,1998
+21667,1998-06-23,Brazil,Norway,1.0,2.0,FIFA World Cup,Marseille,France,True,1998
+21668,1998-06-23,Chile,Cameroon,1.0,1.0,FIFA World Cup,Nantes,France,True,1998
+21669,1998-06-23,Italy,Austria,2.0,1.0,FIFA World Cup,Saint-Denis,France,True,1998
+21670,1998-06-23,Scotland,Morocco,0.0,3.0,FIFA World Cup,Saint-Étienne,France,True,1998
+21672,1998-06-24,France,Denmark,2.0,1.0,FIFA World Cup,Lyon,France,False,1998
+21673,1998-06-24,Nigeria,Paraguay,1.0,3.0,FIFA World Cup,Toulouse,France,True,1998
+21674,1998-06-24,South Africa,Saudi Arabia,2.0,2.0,FIFA World Cup,Bordeaux,France,True,1998
+21675,1998-06-24,Spain,Bulgaria,6.0,1.0,FIFA World Cup,Lens,France,True,1998
+21676,1998-06-25,Belgium,South Korea,1.0,1.0,FIFA World Cup,Paris,France,True,1998
+21678,1998-06-25,Germany,Iran,2.0,0.0,FIFA World Cup,Montpellier,France,True,1998
+21679,1998-06-25,Netherlands,Mexico,2.0,2.0,FIFA World Cup,Saint-Étienne,France,True,1998
+21680,1998-06-25,United States,Serbia,0.0,1.0,FIFA World Cup,Nantes,France,True,1998
+21681,1998-06-26,Argentina,Croatia,1.0,0.0,FIFA World Cup,Bordeaux,France,True,1998
+21683,1998-06-26,Colombia,England,0.0,2.0,FIFA World Cup,Lens,France,True,1998
+21684,1998-06-26,Japan,Jamaica,1.0,2.0,FIFA World Cup,Lyon,France,True,1998
+21686,1998-06-26,Romania,Tunisia,1.0,1.0,FIFA World Cup,Saint-Denis,France,True,1998
+21687,1998-06-27,Brazil,Chile,4.0,1.0,FIFA World Cup,Paris,France,True,1998
+21688,1998-06-27,Italy,Norway,1.0,0.0,FIFA World Cup,Marseille,France,True,1998
+21691,1998-06-28,France,Paraguay,1.0,0.0,FIFA World Cup,Lens,France,False,1998
+21692,1998-06-28,Nigeria,Denmark,1.0,4.0,FIFA World Cup,Saint-Denis,France,True,1998
+21693,1998-06-29,Germany,Mexico,2.0,1.0,FIFA World Cup,Montpellier,France,True,1998
+21695,1998-06-29,Netherlands,Serbia,2.0,1.0,FIFA World Cup,Toulouse,France,True,1998
+21696,1998-06-30,Argentina,England,2.0,2.0,FIFA World Cup,Saint-Étienne,France,True,1998
+21697,1998-06-30,Romania,Croatia,0.0,1.0,FIFA World Cup,Bordeaux,France,True,1998
+21699,1998-07-03,Brazil,Denmark,3.0,2.0,FIFA World Cup,Nantes,France,True,1998
+21700,1998-07-03,France,Italy,0.0,0.0,FIFA World Cup,Saint-Denis,France,False,1998
+21701,1998-07-04,Germany,Croatia,0.0,3.0,FIFA World Cup,Lyon,France,True,1998
+21702,1998-07-04,Netherlands,Argentina,2.0,1.0,FIFA World Cup,Marseille,France,True,1998
+21706,1998-07-07,Brazil,Netherlands,1.0,1.0,FIFA World Cup,Marseille,France,True,1998
+21707,1998-07-08,France,Croatia,2.0,1.0,FIFA World Cup,Saint-Denis,France,False,1998
+21711,1998-07-11,Netherlands,Croatia,1.0,2.0,FIFA World Cup,Paris,France,True,1998
+21712,1998-07-12,France,Brazil,3.0,0.0,FIFA World Cup,Saint-Denis,France,False,1998
+25124,2002-05-31,France,Senegal,0.0,1.0,FIFA World Cup,Seoul,South Korea,True,2002
+25125,2002-06-01,Germany,Saudi Arabia,8.0,0.0,FIFA World Cup,Sapporo,Japan,True,2002
+25126,2002-06-01,Republic of Ireland,Cameroon,1.0,1.0,FIFA World Cup,Niigata,Japan,True,2002
+25127,2002-06-01,Uruguay,Denmark,1.0,2.0,FIFA World Cup,Ulsan,South Korea,True,2002
+25128,2002-06-02,Argentina,Nigeria,1.0,0.0,FIFA World Cup,Kashima,Japan,True,2002
+25129,2002-06-02,England,Sweden,1.0,1.0,FIFA World Cup,Saitama,Japan,True,2002
+25130,2002-06-02,Paraguay,South Africa,2.0,2.0,FIFA World Cup,Busan,South Korea,True,2002
+25131,2002-06-02,Spain,Slovenia,3.0,1.0,FIFA World Cup,Gwangju,South Korea,True,2002
+25132,2002-06-03,Brazil,Turkey,2.0,1.0,FIFA World Cup,Ulsan,South Korea,True,2002
+25133,2002-06-03,Croatia,Mexico,0.0,1.0,FIFA World Cup,Niigata,Japan,True,2002
+25134,2002-06-03,Italy,Ecuador,2.0,0.0,FIFA World Cup,Sapporo,Japan,True,2002
+25135,2002-06-04,China PR,Costa Rica,0.0,2.0,FIFA World Cup,Gwangju,South Korea,True,2002
+25136,2002-06-04,Japan,Belgium,2.0,2.0,FIFA World Cup,Saitama,Japan,False,2002
+25137,2002-06-04,South Korea,Poland,2.0,0.0,FIFA World Cup,Busan,South Korea,False,2002
+25138,2002-06-05,Germany,Republic of Ireland,1.0,1.0,FIFA World Cup,Kashima,Japan,True,2002
+25139,2002-06-05,Russia,Tunisia,2.0,0.0,FIFA World Cup,Kobe,Japan,True,2002
+25140,2002-06-05,United States,Portugal,3.0,2.0,FIFA World Cup,Suwon,South Korea,True,2002
+25141,2002-06-06,Cameroon,Saudi Arabia,1.0,0.0,FIFA World Cup,Saitama,Japan,True,2002
+25142,2002-06-06,Denmark,Senegal,1.0,1.0,FIFA World Cup,Daegu,South Korea,True,2002
+25143,2002-06-06,France,Uruguay,0.0,0.0,FIFA World Cup,Busan,South Korea,True,2002
+25146,2002-06-07,Argentina,England,0.0,1.0,FIFA World Cup,Sapporo,Japan,True,2002
+25147,2002-06-07,Spain,Paraguay,3.0,1.0,FIFA World Cup,Jeonju,South Korea,True,2002
+25148,2002-06-07,Sweden,Nigeria,2.0,1.0,FIFA World Cup,Kobe,Japan,True,2002
+25149,2002-06-08,Brazil,China PR,4.0,0.0,FIFA World Cup,Seogwipo,South Korea,True,2002
+25150,2002-06-08,Italy,Croatia,1.0,2.0,FIFA World Cup,Kashima,Japan,True,2002
+25152,2002-06-08,South Africa,Slovenia,1.0,0.0,FIFA World Cup,Daegu,South Korea,True,2002
+25153,2002-06-09,Costa Rica,Turkey,1.0,1.0,FIFA World Cup,Incheon,South Korea,True,2002
+25154,2002-06-09,Japan,Russia,1.0,0.0,FIFA World Cup,Yokohama,Japan,False,2002
+25156,2002-06-09,Mexico,Ecuador,2.0,1.0,FIFA World Cup,Rifu,Japan,True,2002
+25157,2002-06-10,South Korea,United States,1.0,1.0,FIFA World Cup,Daegu,South Korea,False,2002
+25158,2002-06-10,Portugal,Poland,4.0,0.0,FIFA World Cup,Jeonju,South Korea,True,2002
+25159,2002-06-10,Tunisia,Belgium,1.0,1.0,FIFA World Cup,Ōita,Japan,True,2002
+25160,2002-06-11,Cameroon,Germany,0.0,2.0,FIFA World Cup,Fukuroi,Japan,True,2002
+25161,2002-06-11,Denmark,France,2.0,0.0,FIFA World Cup,Incheon,South Korea,True,2002
+25162,2002-06-11,Saudi Arabia,Republic of Ireland,0.0,3.0,FIFA World Cup,Yokohama,Japan,True,2002
+25163,2002-06-11,Senegal,Uruguay,3.0,3.0,FIFA World Cup,Suwon,South Korea,True,2002
+25164,2002-06-12,Nigeria,England,0.0,0.0,FIFA World Cup,Osaka,Japan,True,2002
+25165,2002-06-12,Slovenia,Paraguay,1.0,3.0,FIFA World Cup,Seogwipo,South Korea,True,2002
+25166,2002-06-12,South Africa,Spain,2.0,3.0,FIFA World Cup,Daejeon,South Korea,True,2002
+25167,2002-06-12,Sweden,Argentina,1.0,1.0,FIFA World Cup,Rifu,Japan,True,2002
+25168,2002-06-13,Costa Rica,Brazil,2.0,5.0,FIFA World Cup,Suwon,South Korea,True,2002
+25169,2002-06-13,Ecuador,Croatia,1.0,0.0,FIFA World Cup,Yokohama,Japan,True,2002
+25170,2002-06-13,Mexico,Italy,1.0,1.0,FIFA World Cup,Ōita,Japan,True,2002
+25171,2002-06-13,Turkey,China PR,3.0,0.0,FIFA World Cup,Seoul,South Korea,True,2002
+25172,2002-06-14,Belgium,Russia,3.0,2.0,FIFA World Cup,Fukuroi,Japan,True,2002
+25173,2002-06-14,Japan,Tunisia,2.0,0.0,FIFA World Cup,Osaka,Japan,False,2002
+25174,2002-06-14,South Korea,Portugal,1.0,0.0,FIFA World Cup,Incheon,South Korea,False,2002
+25175,2002-06-14,Poland,United States,3.0,1.0,FIFA World Cup,Daejeon,South Korea,True,2002
+25176,2002-06-15,Denmark,England,0.0,3.0,FIFA World Cup,Niigata,Japan,True,2002
+25177,2002-06-15,Germany,Paraguay,1.0,0.0,FIFA World Cup,Seogwipo,South Korea,True,2002
+25178,2002-06-16,Spain,Republic of Ireland,1.0,1.0,FIFA World Cup,Suwon,South Korea,True,2002
+25179,2002-06-16,Sweden,Senegal,1.0,2.0,FIFA World Cup,Ōita,Japan,True,2002
+25180,2002-06-17,Brazil,Belgium,2.0,0.0,FIFA World Cup,Kobe,Japan,True,2002
+25181,2002-06-17,Mexico,United States,0.0,2.0,FIFA World Cup,Jeonju,South Korea,True,2002
+25182,2002-06-18,Japan,Turkey,0.0,1.0,FIFA World Cup,Rifu,Japan,False,2002
+25183,2002-06-18,South Korea,Italy,2.0,1.0,FIFA World Cup,Daejeon,South Korea,False,2002
+25184,2002-06-21,England,Brazil,1.0,2.0,FIFA World Cup,Fukuroi,Japan,True,2002
+25185,2002-06-21,Germany,United States,1.0,0.0,FIFA World Cup,Ulsan,South Korea,True,2002
+25187,2002-06-22,South Korea,Spain,0.0,0.0,FIFA World Cup,Gwangju,South Korea,False,2002
+25188,2002-06-22,Senegal,Turkey,0.0,1.0,FIFA World Cup,Osaka,Japan,True,2002
+25190,2002-06-25,South Korea,Germany,0.0,1.0,FIFA World Cup,Seoul,South Korea,False,2002
+25192,2002-06-26,Brazil,Turkey,1.0,0.0,FIFA World Cup,Saitama,Japan,True,2002
+25193,2002-06-29,South Korea,Turkey,2.0,3.0,FIFA World Cup,Daegu,South Korea,False,2002
+25195,2002-06-30,Germany,Brazil,0.0,2.0,FIFA World Cup,Yokohama,Japan,True,2002
+28686,2006-06-09,Germany,Costa Rica,4.0,2.0,FIFA World Cup,Munich,Germany,False,2006
+28687,2006-06-09,Poland,Ecuador,0.0,2.0,FIFA World Cup,Gelsenkirchen,Germany,True,2006
+28688,2006-06-10,Argentina,Ivory Coast,2.0,1.0,FIFA World Cup,Hamburg,Germany,True,2006
+28689,2006-06-10,England,Paraguay,1.0,0.0,FIFA World Cup,Frankfurt am Main,Germany,True,2006
+28690,2006-06-10,Trinidad and Tobago,Sweden,0.0,0.0,FIFA World Cup,Dortmund,Germany,True,2006
+28691,2006-06-11,Angola,Portugal,0.0,1.0,FIFA World Cup,Cologne,Germany,True,2006
+28692,2006-06-11,Mexico,Iran,3.0,1.0,FIFA World Cup,Nuremberg,Germany,True,2006
+28693,2006-06-11,Serbia,Netherlands,0.0,1.0,FIFA World Cup,Leipzig,Germany,True,2006
+28694,2006-06-12,Australia,Japan,3.0,1.0,FIFA World Cup,Kaiserslautern,Germany,True,2006
+28695,2006-06-12,Italy,Ghana,2.0,0.0,FIFA World Cup,Hanover,Germany,True,2006
+28696,2006-06-12,United States,Czech Republic,0.0,3.0,FIFA World Cup,Gelsenkirchen,Germany,True,2006
+28697,2006-06-13,Brazil,Croatia,1.0,0.0,FIFA World Cup,Berlin,Germany,True,2006
+28698,2006-06-13,France,Switzerland,0.0,0.0,FIFA World Cup,Stuttgart,Germany,True,2006
+28699,2006-06-13,South Korea,Togo,2.0,1.0,FIFA World Cup,Frankfurt am Main,Germany,True,2006
+28700,2006-06-14,Germany,Poland,1.0,0.0,FIFA World Cup,Dortmund,Germany,False,2006
+28701,2006-06-14,Spain,Ukraine,4.0,0.0,FIFA World Cup,Leipzig,Germany,True,2006
+28702,2006-06-14,Tunisia,Saudi Arabia,2.0,2.0,FIFA World Cup,Munich,Germany,True,2006
+28703,2006-06-15,Ecuador,Costa Rica,3.0,0.0,FIFA World Cup,Hamburg,Germany,True,2006
+28704,2006-06-15,England,Trinidad and Tobago,2.0,0.0,FIFA World Cup,Nuremberg,Germany,True,2006
+28705,2006-06-15,Sweden,Paraguay,1.0,0.0,FIFA World Cup,Berlin,Germany,True,2006
+28706,2006-06-16,Argentina,Serbia,6.0,0.0,FIFA World Cup,Gelsenkirchen,Germany,True,2006
+28707,2006-06-16,Mexico,Angola,0.0,0.0,FIFA World Cup,Hanover,Germany,True,2006
+28708,2006-06-16,Netherlands,Ivory Coast,2.0,1.0,FIFA World Cup,Stuttgart,Germany,True,2006
+28709,2006-06-17,Czech Republic,Ghana,0.0,2.0,FIFA World Cup,Cologne,Germany,True,2006
+28710,2006-06-17,Italy,United States,1.0,1.0,FIFA World Cup,Kaiserslautern,Germany,True,2006
+28711,2006-06-17,Portugal,Iran,2.0,0.0,FIFA World Cup,Frankfurt am Main,Germany,True,2006
+28712,2006-06-18,Brazil,Australia,2.0,0.0,FIFA World Cup,Munich,Germany,True,2006
+28713,2006-06-18,France,South Korea,1.0,1.0,FIFA World Cup,Leipzig,Germany,True,2006
+28714,2006-06-18,Japan,Croatia,0.0,0.0,FIFA World Cup,Nuremberg,Germany,True,2006
+28715,2006-06-19,Saudi Arabia,Ukraine,0.0,4.0,FIFA World Cup,Hamburg,Germany,True,2006
+28716,2006-06-19,Spain,Tunisia,3.0,1.0,FIFA World Cup,Stuttgart,Germany,True,2006
+28717,2006-06-19,Togo,Switzerland,0.0,2.0,FIFA World Cup,Dortmund,Germany,True,2006
+28718,2006-06-20,Costa Rica,Poland,1.0,2.0,FIFA World Cup,Hanover,Germany,True,2006
+28719,2006-06-20,Germany,Ecuador,3.0,0.0,FIFA World Cup,Berlin,Germany,False,2006
+28720,2006-06-20,Paraguay,Trinidad and Tobago,2.0,0.0,FIFA World Cup,Kaiserslautern,Germany,True,2006
+28721,2006-06-20,Sweden,England,2.0,2.0,FIFA World Cup,Cologne,Germany,True,2006
+28722,2006-06-21,Iran,Angola,1.0,1.0,FIFA World Cup,Leipzig,Germany,True,2006
+28723,2006-06-21,Ivory Coast,Serbia,3.0,2.0,FIFA World Cup,Munich,Germany,True,2006
+28724,2006-06-21,Netherlands,Argentina,0.0,0.0,FIFA World Cup,Frankfurt am Main,Germany,True,2006
+28725,2006-06-21,Portugal,Mexico,2.0,1.0,FIFA World Cup,Gelsenkirchen,Germany,True,2006
+28726,2006-06-22,Croatia,Australia,2.0,2.0,FIFA World Cup,Stuttgart,Germany,True,2006
+28727,2006-06-22,Czech Republic,Italy,0.0,2.0,FIFA World Cup,Hamburg,Germany,True,2006
+28728,2006-06-22,Ghana,United States,2.0,1.0,FIFA World Cup,Nuremberg,Germany,True,2006
+28729,2006-06-22,Japan,Brazil,1.0,4.0,FIFA World Cup,Dortmund,Germany,True,2006
+28730,2006-06-23,Saudi Arabia,Spain,0.0,1.0,FIFA World Cup,Kaiserslautern,Germany,True,2006
+28731,2006-06-23,Switzerland,South Korea,2.0,0.0,FIFA World Cup,Hanover,Germany,True,2006
+28732,2006-06-23,Togo,France,0.0,2.0,FIFA World Cup,Cologne,Germany,True,2006
+28733,2006-06-23,Ukraine,Tunisia,1.0,0.0,FIFA World Cup,Berlin,Germany,True,2006
+28734,2006-06-24,Argentina,Mexico,2.0,1.0,FIFA World Cup,Leipzig,Germany,True,2006
+28735,2006-06-24,Germany,Sweden,2.0,0.0,FIFA World Cup,Munich,Germany,False,2006
+28738,2006-06-25,England,Ecuador,1.0,0.0,FIFA World Cup,Stuttgart,Germany,True,2006
+28740,2006-06-25,Portugal,Netherlands,1.0,0.0,FIFA World Cup,Nuremberg,Germany,True,2006
+28742,2006-06-26,Italy,Australia,1.0,0.0,FIFA World Cup,Kaiserslautern,Germany,True,2006
+28744,2006-06-26,Switzerland,Ukraine,0.0,0.0,FIFA World Cup,Cologne,Germany,True,2006
+28745,2006-06-27,Brazil,Ghana,3.0,0.0,FIFA World Cup,Dortmund,Germany,True,2006
+28746,2006-06-27,Spain,France,1.0,3.0,FIFA World Cup,Hanover,Germany,True,2006
+28748,2006-06-30,Germany,Argentina,1.0,1.0,FIFA World Cup,Berlin,Germany,False,2006
+28749,2006-06-30,Italy,Ukraine,3.0,0.0,FIFA World Cup,Hamburg,Germany,True,2006
+28751,2006-07-01,Brazil,France,0.0,1.0,FIFA World Cup,Frankfurt am Main,Germany,True,2006
+28752,2006-07-01,England,Portugal,0.0,0.0,FIFA World Cup,Gelsenkirchen,Germany,True,2006
+28754,2006-07-04,Germany,Italy,0.0,2.0,FIFA World Cup,Dortmund,Germany,False,2006
+28756,2006-07-05,Portugal,France,0.0,1.0,FIFA World Cup,Munich,Germany,True,2006
+28758,2006-07-08,Germany,Portugal,3.0,1.0,FIFA World Cup,Stuttgart,Germany,False,2006
+28760,2006-07-09,Italy,France,1.0,1.0,FIFA World Cup,Berlin,Germany,True,2006
+32469,2010-06-11,South Africa,Mexico,1.0,1.0,FIFA World Cup,Johannesburg,South Africa,False,2010
+32470,2010-06-11,Uruguay,France,0.0,0.0,FIFA World Cup,Cape Town,South Africa,True,2010
+32471,2010-06-12,Argentina,Nigeria,1.0,0.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32472,2010-06-12,England,United States,1.0,1.0,FIFA World Cup,Rustenburg,South Africa,True,2010
+32473,2010-06-12,South Korea,Greece,2.0,0.0,FIFA World Cup,Port Elizabeth,South Africa,True,2010
+32474,2010-06-13,Algeria,Slovenia,0.0,1.0,FIFA World Cup,Polokwane,South Africa,True,2010
+32475,2010-06-13,Germany,Australia,4.0,0.0,FIFA World Cup,Durban,South Africa,True,2010
+32476,2010-06-13,Serbia,Ghana,0.0,1.0,FIFA World Cup,Pretoria,South Africa,True,2010
+32477,2010-06-14,Italy,Paraguay,1.0,1.0,FIFA World Cup,Cape Town,South Africa,True,2010
+32478,2010-06-14,Japan,Cameroon,1.0,0.0,FIFA World Cup,Bloemfontein,South Africa,True,2010
+32479,2010-06-14,Netherlands,Denmark,2.0,0.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32480,2010-06-15,Brazil,North Korea,2.0,1.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32481,2010-06-15,Ivory Coast,Portugal,0.0,0.0,FIFA World Cup,Port Elizabeth,South Africa,True,2010
+32482,2010-06-15,New Zealand,Slovakia,1.0,1.0,FIFA World Cup,Rustenburg,South Africa,True,2010
+32483,2010-06-16,Honduras,Chile,0.0,1.0,FIFA World Cup,Nelspruit,South Africa,True,2010
+32484,2010-06-16,South Africa,Uruguay,0.0,3.0,FIFA World Cup,Pretoria,South Africa,False,2010
+32485,2010-06-16,Spain,Switzerland,0.0,1.0,FIFA World Cup,Durban,South Africa,True,2010
+32486,2010-06-17,Argentina,South Korea,4.0,1.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32487,2010-06-17,France,Mexico,0.0,2.0,FIFA World Cup,Polokwane,South Africa,True,2010
+32488,2010-06-17,Greece,Nigeria,2.0,1.0,FIFA World Cup,Bloemfontein,South Africa,True,2010
+32489,2010-06-18,England,Algeria,0.0,0.0,FIFA World Cup,Cape Town,South Africa,True,2010
+32490,2010-06-18,Germany,Serbia,0.0,1.0,FIFA World Cup,Port Elizabeth,South Africa,True,2010
+32492,2010-06-18,Slovenia,United States,2.0,2.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32493,2010-06-19,Cameroon,Denmark,1.0,2.0,FIFA World Cup,Pretoria,South Africa,True,2010
+32495,2010-06-19,Ghana,Australia,1.0,1.0,FIFA World Cup,Rustenburg,South Africa,True,2010
+32496,2010-06-19,Netherlands,Japan,1.0,0.0,FIFA World Cup,Durban,South Africa,True,2010
+32499,2010-06-20,Brazil,Ivory Coast,3.0,1.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32500,2010-06-20,Italy,New Zealand,1.0,1.0,FIFA World Cup,Nelspruit,South Africa,True,2010
+32502,2010-06-20,Slovakia,Paraguay,0.0,2.0,FIFA World Cup,Bloemfontein,South Africa,True,2010
+32504,2010-06-21,Chile,Switzerland,1.0,0.0,FIFA World Cup,Port Elizabeth,South Africa,True,2010
+32505,2010-06-21,Portugal,North Korea,7.0,0.0,FIFA World Cup,Cape Town,South Africa,True,2010
+32506,2010-06-21,Spain,Honduras,2.0,0.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32507,2010-06-22,Greece,Argentina,0.0,2.0,FIFA World Cup,Polokwane,South Africa,True,2010
+32508,2010-06-22,Mexico,Uruguay,0.0,1.0,FIFA World Cup,Rustenburg,South Africa,True,2010
+32509,2010-06-22,Nigeria,South Korea,2.0,2.0,FIFA World Cup,Durban,South Africa,True,2010
+32510,2010-06-22,South Africa,France,2.0,1.0,FIFA World Cup,Bloemfontein,South Africa,False,2010
+32511,2010-06-23,Australia,Serbia,2.0,1.0,FIFA World Cup,Nelspruit,South Africa,True,2010
+32512,2010-06-23,Ghana,Germany,0.0,1.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32513,2010-06-23,Slovenia,England,0.0,1.0,FIFA World Cup,Port Elizabeth,South Africa,True,2010
+32514,2010-06-23,United States,Algeria,1.0,0.0,FIFA World Cup,Pretoria,South Africa,True,2010
+32515,2010-06-24,Cameroon,Netherlands,1.0,2.0,FIFA World Cup,Cape Town,South Africa,True,2010
+32516,2010-06-24,Denmark,Japan,1.0,3.0,FIFA World Cup,Rustenburg,South Africa,True,2010
+32517,2010-06-24,Paraguay,New Zealand,0.0,0.0,FIFA World Cup,Polokwane,South Africa,True,2010
+32518,2010-06-24,Slovakia,Italy,3.0,2.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32519,2010-06-25,Chile,Spain,1.0,2.0,FIFA World Cup,Pretoria,South Africa,True,2010
+32520,2010-06-25,North Korea,Ivory Coast,0.0,3.0,FIFA World Cup,Nelspruit,South Africa,True,2010
+32521,2010-06-25,Portugal,Brazil,0.0,0.0,FIFA World Cup,Durban,South Africa,True,2010
+32522,2010-06-25,Switzerland,Honduras,0.0,0.0,FIFA World Cup,Bloemfontein,South Africa,True,2010
+32524,2010-06-26,Uruguay,South Korea,2.0,1.0,FIFA World Cup,Port Elizabeth,South Africa,True,2010
+32525,2010-06-26,United States,Ghana,1.0,2.0,FIFA World Cup,Rustenburg,South Africa,True,2010
+32526,2010-06-27,Argentina,Mexico,3.0,1.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32527,2010-06-27,Germany,England,4.0,1.0,FIFA World Cup,Bloemfontein,South Africa,True,2010
+32528,2010-06-28,Brazil,Chile,3.0,0.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32529,2010-06-28,Netherlands,Slovakia,2.0,1.0,FIFA World Cup,Durban,South Africa,True,2010
+32530,2010-06-29,Paraguay,Japan,0.0,0.0,FIFA World Cup,Pretoria,South Africa,True,2010
+32531,2010-06-29,Spain,Portugal,1.0,0.0,FIFA World Cup,Cape Town,South Africa,True,2010
+32534,2010-07-02,Netherlands,Brazil,2.0,1.0,FIFA World Cup,Port Elizabeth,South Africa,True,2010
+32535,2010-07-02,Uruguay,Ghana,1.0,1.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32536,2010-07-03,Argentina,Germany,0.0,4.0,FIFA World Cup,Cape Town,South Africa,True,2010
+32537,2010-07-03,Paraguay,Spain,0.0,1.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+32538,2010-07-06,Uruguay,Netherlands,2.0,3.0,FIFA World Cup,Cape Town,South Africa,True,2010
+32539,2010-07-07,Germany,Spain,0.0,1.0,FIFA World Cup,Durban,South Africa,True,2010
+32542,2010-07-10,Uruguay,Germany,2.0,3.0,FIFA World Cup,Port Elizabeth,South Africa,True,2010
+32543,2010-07-11,Netherlands,Spain,0.0,1.0,FIFA World Cup,Johannesburg,South Africa,True,2010
+36425,2014-06-12,Brazil,Croatia,3.0,1.0,FIFA World Cup,São Paulo,Brazil,False,2014
+36426,2014-06-13,Chile,Australia,3.0,1.0,FIFA World Cup,Cuiabá,Brazil,True,2014
+36427,2014-06-13,Mexico,Cameroon,1.0,0.0,FIFA World Cup,Natal,Brazil,True,2014
+36428,2014-06-13,Spain,Netherlands,1.0,5.0,FIFA World Cup,Salvador,Brazil,True,2014
+36429,2014-06-14,Colombia,Greece,3.0,0.0,FIFA World Cup,Belo Horizonte,Brazil,True,2014
+36430,2014-06-14,England,Italy,1.0,2.0,FIFA World Cup,Manaus,Brazil,True,2014
+36431,2014-06-14,Ivory Coast,Japan,2.0,1.0,FIFA World Cup,Recife,Brazil,True,2014
+36432,2014-06-14,Uruguay,Costa Rica,1.0,3.0,FIFA World Cup,Fortaleza,Brazil,True,2014
+36433,2014-06-15,Argentina,Bosnia and Herzegovina,2.0,1.0,FIFA World Cup,Rio de Janeiro,Brazil,True,2014
+36434,2014-06-15,France,Honduras,3.0,0.0,FIFA World Cup,Porto Alegre,Brazil,True,2014
+36435,2014-06-15,Switzerland,Ecuador,2.0,1.0,FIFA World Cup,Brasília,Brazil,True,2014
+36436,2014-06-16,Germany,Portugal,4.0,0.0,FIFA World Cup,Salvador,Brazil,True,2014
+36437,2014-06-16,Ghana,United States,1.0,2.0,FIFA World Cup,Natal,Brazil,True,2014
+36438,2014-06-16,Iran,Nigeria,0.0,0.0,FIFA World Cup,Curitiba,Brazil,True,2014
+36439,2014-06-17,Belgium,Algeria,2.0,1.0,FIFA World Cup,Belo Horizonte,Brazil,True,2014
+36440,2014-06-17,Brazil,Mexico,0.0,0.0,FIFA World Cup,Fortaleza,Brazil,False,2014
+36441,2014-06-17,Russia,South Korea,1.0,1.0,FIFA World Cup,Cuiabá,Brazil,True,2014
+36442,2014-06-18,Australia,Netherlands,2.0,3.0,FIFA World Cup,Curitiba,Brazil,True,2014
+36443,2014-06-18,Cameroon,Croatia,0.0,4.0,FIFA World Cup,Manaus,Brazil,True,2014
+36445,2014-06-18,Spain,Chile,0.0,2.0,FIFA World Cup,Rio de Janeiro,Brazil,True,2014
+36446,2014-06-19,Colombia,Ivory Coast,2.0,1.0,FIFA World Cup,Brasília,Brazil,True,2014
+36447,2014-06-19,Japan,Greece,0.0,0.0,FIFA World Cup,Natal,Brazil,True,2014
+36448,2014-06-19,Uruguay,England,2.0,1.0,FIFA World Cup,São Paulo,Brazil,True,2014
+36449,2014-06-20,Honduras,Ecuador,1.0,2.0,FIFA World Cup,Curitiba,Brazil,True,2014
+36450,2014-06-20,Italy,Costa Rica,0.0,1.0,FIFA World Cup,Recife,Brazil,True,2014
+36451,2014-06-20,Switzerland,France,2.0,5.0,FIFA World Cup,Salvador,Brazil,True,2014
+36452,2014-06-21,Argentina,Iran,1.0,0.0,FIFA World Cup,Belo Horizonte,Brazil,True,2014
+36453,2014-06-21,Germany,Ghana,2.0,2.0,FIFA World Cup,Fortaleza,Brazil,True,2014
+36455,2014-06-21,Nigeria,Bosnia and Herzegovina,1.0,0.0,FIFA World Cup,Cuiabá,Brazil,True,2014
+36456,2014-06-22,Belgium,Russia,1.0,0.0,FIFA World Cup,Rio de Janeiro,Brazil,True,2014
+36458,2014-06-22,South Korea,Algeria,2.0,4.0,FIFA World Cup,Porto Alegre,Brazil,True,2014
+36459,2014-06-22,United States,Portugal,2.0,2.0,FIFA World Cup,Manaus,Brazil,True,2014
+36460,2014-06-23,Australia,Spain,0.0,3.0,FIFA World Cup,Curitiba,Brazil,True,2014
+36461,2014-06-23,Brazil,Cameroon,4.0,1.0,FIFA World Cup,Brasília,Brazil,False,2014
+36462,2014-06-23,Croatia,Mexico,1.0,3.0,FIFA World Cup,Recife,Brazil,True,2014
+36463,2014-06-23,Netherlands,Chile,2.0,0.0,FIFA World Cup,São Paulo,Brazil,True,2014
+36464,2014-06-24,Costa Rica,England,0.0,0.0,FIFA World Cup,Belo Horizonte,Brazil,True,2014
+36465,2014-06-24,Greece,Ivory Coast,2.0,1.0,FIFA World Cup,Fortaleza,Brazil,True,2014
+36466,2014-06-24,Italy,Uruguay,0.0,1.0,FIFA World Cup,Natal,Brazil,True,2014
+36467,2014-06-24,Japan,Colombia,1.0,4.0,FIFA World Cup,Cuiabá,Brazil,True,2014
+36468,2014-06-25,Bosnia and Herzegovina,Iran,3.0,1.0,FIFA World Cup,Salvador,Brazil,True,2014
+36469,2014-06-25,Ecuador,France,0.0,0.0,FIFA World Cup,Rio de Janeiro,Brazil,True,2014
+36470,2014-06-25,Honduras,Switzerland,0.0,3.0,FIFA World Cup,Manaus,Brazil,True,2014
+36472,2014-06-25,Nigeria,Argentina,2.0,3.0,FIFA World Cup,Porto Alegre,Brazil,True,2014
+36473,2014-06-26,Algeria,Russia,1.0,1.0,FIFA World Cup,Curitiba,Brazil,True,2014
+36474,2014-06-26,South Korea,Belgium,0.0,1.0,FIFA World Cup,São Paulo,Brazil,True,2014
+36475,2014-06-26,Portugal,Ghana,2.0,1.0,FIFA World Cup,Brasília,Brazil,True,2014
+36476,2014-06-26,United States,Germany,0.0,1.0,FIFA World Cup,Recife,Brazil,True,2014
+36477,2014-06-28,Brazil,Chile,1.0,1.0,FIFA World Cup,Belo Horizonte,Brazil,False,2014
+36478,2014-06-28,Colombia,Uruguay,2.0,0.0,FIFA World Cup,Rio de Janeiro,Brazil,True,2014
+36480,2014-06-29,Costa Rica,Greece,1.0,1.0,FIFA World Cup,Recife,Brazil,True,2014
+36481,2014-06-29,Netherlands,Mexico,2.0,1.0,FIFA World Cup,Fortaleza,Brazil,True,2014
+36482,2014-06-30,France,Nigeria,2.0,0.0,FIFA World Cup,Brasília,Brazil,True,2014
+36483,2014-06-30,Germany,Algeria,2.0,1.0,FIFA World Cup,Porto Alegre,Brazil,True,2014
+36484,2014-07-01,Argentina,Switzerland,1.0,0.0,FIFA World Cup,São Paulo,Brazil,True,2014
+36485,2014-07-01,Belgium,United States,2.0,1.0,FIFA World Cup,Salvador,Brazil,True,2014
+36487,2014-07-04,Brazil,Colombia,2.0,1.0,FIFA World Cup,Fortaleza,Brazil,False,2014
+36488,2014-07-04,France,Germany,0.0,1.0,FIFA World Cup,Rio de Janeiro,Brazil,True,2014
+36489,2014-07-05,Argentina,Belgium,1.0,0.0,FIFA World Cup,Brasília,Brazil,True,2014
+36490,2014-07-05,Netherlands,Costa Rica,0.0,0.0,FIFA World Cup,Salvador,Brazil,True,2014
+36492,2014-07-08,Brazil,Germany,1.0,7.0,FIFA World Cup,Belo Horizonte,Brazil,False,2014
+36493,2014-07-09,Netherlands,Argentina,0.0,0.0,FIFA World Cup,São Paulo,Brazil,True,2014
+36495,2014-07-12,Brazil,Netherlands,0.0,3.0,FIFA World Cup,Brasília,Brazil,False,2014
+36497,2014-07-13,Germany,Argentina,1.0,0.0,FIFA World Cup,Rio de Janeiro,Brazil,True,2014
+40232,2018-06-14,Russia,Saudi Arabia,5.0,0.0,FIFA World Cup,Moscow,Russia,False,2018
+40233,2018-06-15,Egypt,Uruguay,0.0,1.0,FIFA World Cup,Ekaterinburg,Russia,True,2018
+40234,2018-06-15,Morocco,Iran,0.0,1.0,FIFA World Cup,Saint Petersburg,Russia,True,2018
+40235,2018-06-15,Portugal,Spain,3.0,3.0,FIFA World Cup,Sochi,Russia,True,2018
+40236,2018-06-16,France,Australia,2.0,1.0,FIFA World Cup,Kazan,Russia,True,2018
+40237,2018-06-16,Argentina,Iceland,1.0,1.0,FIFA World Cup,Moscow,Russia,True,2018
+40238,2018-06-16,Peru,Denmark,0.0,1.0,FIFA World Cup,Saransk,Russia,True,2018
+40239,2018-06-16,Croatia,Nigeria,2.0,0.0,FIFA World Cup,Kaliningrad,Russia,True,2018
+40240,2018-06-17,Costa Rica,Serbia,0.0,1.0,FIFA World Cup,Samara,Russia,True,2018
+40241,2018-06-17,Germany,Mexico,0.0,1.0,FIFA World Cup,Moscow,Russia,True,2018
+40242,2018-06-17,Brazil,Switzerland,1.0,1.0,FIFA World Cup,Rostov-on-Don,Russia,True,2018
+40243,2018-06-18,Sweden,South Korea,1.0,0.0,FIFA World Cup,Nizhny Novgorod,Russia,True,2018
+40244,2018-06-18,Belgium,Panama,3.0,0.0,FIFA World Cup,Sochi,Russia,True,2018
+40245,2018-06-18,Tunisia,England,1.0,2.0,FIFA World Cup,Volgograd,Russia,True,2018
+40246,2018-06-19,Colombia,Japan,1.0,2.0,FIFA World Cup,Saransk,Russia,True,2018
+40247,2018-06-19,Poland,Senegal,1.0,2.0,FIFA World Cup,Moscow,Russia,True,2018
+40248,2018-06-19,Russia,Egypt,3.0,1.0,FIFA World Cup,Saint Petersburg,Russia,False,2018
+40249,2018-06-20,Portugal,Morocco,1.0,0.0,FIFA World Cup,Moscow,Russia,True,2018
+40250,2018-06-20,Uruguay,Saudi Arabia,1.0,0.0,FIFA World Cup,Rostov-on-Don,Russia,True,2018
+40251,2018-06-20,Iran,Spain,0.0,1.0,FIFA World Cup,Kazan,Russia,True,2018
+40252,2018-06-21,Denmark,Australia,1.0,1.0,FIFA World Cup,Samara,Russia,True,2018
+40253,2018-06-21,France,Peru,1.0,0.0,FIFA World Cup,Ekaterinburg,Russia,True,2018
+40254,2018-06-21,Argentina,Croatia,0.0,3.0,FIFA World Cup,Nizhny Novgorod,Russia,True,2018
+40255,2018-06-22,Brazil,Costa Rica,2.0,0.0,FIFA World Cup,Saint Petersburg,Russia,True,2018
+40256,2018-06-22,Nigeria,Iceland,2.0,0.0,FIFA World Cup,Volgograd,Russia,True,2018
+40257,2018-06-22,Serbia,Switzerland,1.0,2.0,FIFA World Cup,Kaliningrad,Russia,True,2018
+40258,2018-06-23,Belgium,Tunisia,5.0,2.0,FIFA World Cup,Moscow,Russia,True,2018
+40259,2018-06-23,South Korea,Mexico,1.0,2.0,FIFA World Cup,Rostov-on-Don,Russia,True,2018
+40260,2018-06-23,Germany,Sweden,2.0,1.0,FIFA World Cup,Sochi,Russia,True,2018
+40261,2018-06-24,England,Panama,6.0,1.0,FIFA World Cup,Nizhny Novgorod,Russia,True,2018
+40262,2018-06-24,Japan,Senegal,2.0,2.0,FIFA World Cup,Ekaterinburg,Russia,True,2018
+40263,2018-06-24,Poland,Colombia,0.0,3.0,FIFA World Cup,Kazan,Russia,True,2018
+40264,2018-06-25,Russia,Uruguay,0.0,3.0,FIFA World Cup,Samara,Russia,False,2018
+40265,2018-06-25,Saudi Arabia,Egypt,2.0,1.0,FIFA World Cup,Volgograd,Russia,True,2018
+40266,2018-06-25,Spain,Morocco,2.0,2.0,FIFA World Cup,Kaliningrad,Russia,True,2018
+40267,2018-06-25,Iran,Portugal,1.0,1.0,FIFA World Cup,Saransk,Russia,True,2018
+40268,2018-06-26,Australia,Peru,0.0,2.0,FIFA World Cup,Sochi,Russia,True,2018
+40269,2018-06-26,Denmark,France,0.0,0.0,FIFA World Cup,Moscow,Russia,True,2018
+40270,2018-06-26,Nigeria,Argentina,1.0,2.0,FIFA World Cup,Saint Petersburg,Russia,True,2018
+40271,2018-06-26,Iceland,Croatia,1.0,2.0,FIFA World Cup,Rostov-on-Don,Russia,True,2018
+40272,2018-06-27,South Korea,Germany,2.0,0.0,FIFA World Cup,Kazan,Russia,True,2018
+40273,2018-06-27,Mexico,Sweden,0.0,3.0,FIFA World Cup,Ekaterinburg,Russia,True,2018
+40274,2018-06-27,Serbia,Brazil,0.0,2.0,FIFA World Cup,Moscow,Russia,True,2018
+40275,2018-06-27,Switzerland,Costa Rica,2.0,2.0,FIFA World Cup,Nizhny Novgorod,Russia,True,2018
+40276,2018-06-28,Japan,Poland,0.0,1.0,FIFA World Cup,Volgograd,Russia,True,2018
+40277,2018-06-28,Senegal,Colombia,0.0,1.0,FIFA World Cup,Samara,Russia,True,2018
+40278,2018-06-28,Panama,Tunisia,1.0,2.0,FIFA World Cup,Saransk,Russia,True,2018
+40279,2018-06-28,England,Belgium,0.0,1.0,FIFA World Cup,Kaliningrad,Russia,True,2018
+40280,2018-06-30,France,Argentina,4.0,3.0,FIFA World Cup,Kazan,Russia,True,2018
+40281,2018-06-30,Uruguay,Portugal,2.0,1.0,FIFA World Cup,Sochi,Russia,True,2018
+40282,2018-07-01,Russia,Spain,1.0,1.0,FIFA World Cup,Moscow,Russia,False,2018
+40283,2018-07-01,Croatia,Denmark,1.0,1.0,FIFA World Cup,Nizhny Novgorod,Russia,True,2018
+40284,2018-07-02,Brazil,Mexico,2.0,0.0,FIFA World Cup,Samara,Russia,True,2018
+40285,2018-07-02,Belgium,Japan,3.0,2.0,FIFA World Cup,Rostov-on-Don,Russia,True,2018
+40286,2018-07-03,Sweden,Switzerland,1.0,0.0,FIFA World Cup,Saint Petersburg,Russia,True,2018
+40287,2018-07-03,Colombia,England,1.0,1.0,FIFA World Cup,Moscow,Russia,True,2018
+40289,2018-07-06,Uruguay,France,0.0,2.0,FIFA World Cup,Nizhny Novgorod,Russia,True,2018
+40290,2018-07-06,Brazil,Belgium,1.0,2.0,FIFA World Cup,Kazan,Russia,True,2018
+40291,2018-07-07,Sweden,England,0.0,2.0,FIFA World Cup,Samara,Russia,True,2018
+40292,2018-07-07,Russia,Croatia,2.0,2.0,FIFA World Cup,Sochi,Russia,False,2018
+40293,2018-07-10,France,Belgium,1.0,0.0,FIFA World Cup,Saint Petersburg,Russia,True,2018
+40294,2018-07-11,Croatia,England,2.0,1.0,FIFA World Cup,Moscow,Russia,True,2018
+40295,2018-07-14,Belgium,England,2.0,0.0,FIFA World Cup,Saint Petersburg,Russia,True,2018
+40296,2018-07-15,France,Croatia,4.0,2.0,FIFA World Cup,Moscow,Russia,True,2018
+44158,2022-11-20,Qatar,Ecuador,0.0,2.0,FIFA World Cup,Al Khor,Qatar,False,2022
+44159,2022-11-21,Senegal,Netherlands,0.0,2.0,FIFA World Cup,Doha,Qatar,True,2022
+44160,2022-11-21,England,Iran,6.0,2.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44161,2022-11-21,United States,Wales,1.0,1.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44162,2022-11-22,Argentina,Saudi Arabia,1.0,2.0,FIFA World Cup,Lusail,Qatar,True,2022
+44163,2022-11-22,Mexico,Poland,0.0,0.0,FIFA World Cup,Doha,Qatar,True,2022
+44164,2022-11-22,Denmark,Tunisia,0.0,0.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44165,2022-11-22,France,Australia,4.0,1.0,FIFA World Cup,Al Wakrah,Qatar,True,2022
+44166,2022-11-23,Germany,Japan,1.0,2.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44167,2022-11-23,Spain,Costa Rica,7.0,0.0,FIFA World Cup,Doha,Qatar,True,2022
+44168,2022-11-23,Morocco,Croatia,0.0,0.0,FIFA World Cup,Al Khor,Qatar,True,2022
+44169,2022-11-23,Belgium,Canada,1.0,0.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44170,2022-11-24,Switzerland,Cameroon,1.0,0.0,FIFA World Cup,Al Wakrah,Qatar,True,2022
+44171,2022-11-24,Brazil,Serbia,2.0,0.0,FIFA World Cup,Lusail,Qatar,True,2022
+44172,2022-11-24,Uruguay,South Korea,0.0,0.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44173,2022-11-24,Portugal,Ghana,3.0,2.0,FIFA World Cup,Doha,Qatar,True,2022
+44174,2022-11-25,Qatar,Senegal,1.0,3.0,FIFA World Cup,Doha,Qatar,False,2022
+44175,2022-11-25,Netherlands,Ecuador,1.0,1.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44176,2022-11-25,Wales,Iran,0.0,2.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44177,2022-11-25,England,United States,0.0,0.0,FIFA World Cup,Al Khor,Qatar,True,2022
+44178,2022-11-26,Poland,Saudi Arabia,2.0,0.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44179,2022-11-26,Argentina,Mexico,2.0,0.0,FIFA World Cup,Lusail,Qatar,True,2022
+44180,2022-11-26,Tunisia,Australia,0.0,1.0,FIFA World Cup,Al Wakrah,Qatar,True,2022
+44181,2022-11-26,France,Denmark,2.0,1.0,FIFA World Cup,Doha,Qatar,True,2022
+44182,2022-11-27,Japan,Costa Rica,0.0,1.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44183,2022-11-27,Spain,Germany,1.0,1.0,FIFA World Cup,Al Khor,Qatar,True,2022
+44184,2022-11-27,Belgium,Morocco,0.0,2.0,FIFA World Cup,Doha,Qatar,True,2022
+44185,2022-11-27,Croatia,Canada,4.0,1.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44186,2022-11-28,Cameroon,Serbia,3.0,3.0,FIFA World Cup,Al Wakrah,Qatar,True,2022
+44187,2022-11-28,Brazil,Switzerland,1.0,0.0,FIFA World Cup,Doha,Qatar,True,2022
+44188,2022-11-28,South Korea,Ghana,2.0,3.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44189,2022-11-28,Portugal,Uruguay,2.0,0.0,FIFA World Cup,Lusail,Qatar,True,2022
+44190,2022-11-29,Ecuador,Senegal,1.0,2.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44191,2022-11-29,Qatar,Netherlands,0.0,2.0,FIFA World Cup,Al Khor,Qatar,False,2022
+44192,2022-11-29,Wales,England,0.0,3.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44193,2022-11-29,Iran,United States,0.0,1.0,FIFA World Cup,Doha,Qatar,True,2022
+44194,2022-11-30,Poland,Argentina,0.0,2.0,FIFA World Cup,Doha,Qatar,True,2022
+44195,2022-11-30,Saudi Arabia,Mexico,1.0,2.0,FIFA World Cup,Lusail,Qatar,True,2022
+44196,2022-11-30,Australia,Denmark,1.0,0.0,FIFA World Cup,Al Wakrah,Qatar,True,2022
+44197,2022-11-30,Tunisia,France,1.0,0.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44198,2022-12-01,Japan,Spain,2.0,1.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44199,2022-12-01,Costa Rica,Germany,2.0,4.0,FIFA World Cup,Al Khor,Qatar,True,2022
+44200,2022-12-01,Croatia,Belgium,0.0,0.0,FIFA World Cup,Al Rayyan,Qatar,True,2022
+44201,2022-12-01,Canada,Morocco,1.0,2.0,FIFA World Cup,Doha,Qatar,True,2022
+44202,2022-12-02,Serbia,Switzerland,,,FIFA World Cup,Doha,Qatar,True,2022
+44203,2022-12-02,Cameroon,Brazil,,,FIFA World Cup,Lusail,Qatar,True,2022
+44204,2022-12-02,Ghana,Uruguay,,,FIFA World Cup,Al Wakrah,Qatar,True,2022
+44205,2022-12-02,South Korea,Portugal,,,FIFA World Cup,Al Rayyan,Qatar,True,2022
