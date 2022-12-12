@@ -6,6 +6,7 @@ df_final = pd.read_csv("df_final.csv")
 
 st.set_page_config(page_title="My App",layout='wide')
 
+
 st.sidebar.write("Sidebar")
 
 
