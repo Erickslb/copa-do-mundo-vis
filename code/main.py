@@ -7,6 +7,7 @@ import scipy.stats
 import plotly.io as pio
 from datetime import date, time, datetime
 import plotly.graph_objects as go
+from skimage import io
 
 #%%
 
@@ -54,9 +55,8 @@ def champions_stats_catcher(year):
 
     return stats
 
-champions_stats_catcher(1994)
 
-def plot_filtro(df, choice):
+def line_plot(df, choice):
     if choice == "Gols feitos":
         df_choice = df.groupby(['team','year']).score.sum().unstack().fillna(0).cumsum(axis=1).T.reset_index()
     elif choice == "Gols tomados":
@@ -66,27 +66,68 @@ def plot_filtro(df, choice):
     elif choice == "Derrotas":
         df_choice = df.groupby(['team','year']).losses.sum().unstack().fillna(0).cumsum(axis=1).T.reset_index()
     
-    print(df_choice.columns)
     fig = px.line(df_choice, x='year', y=df_choice.columns)
-    #fig.update_traces(hovertemplate='Ano: %{x}<br>' + f'{choice}:' + '%{y}')
-    #fig.update_layout(
-    #xaxis_title="Ano",
-    #yaxis_title=choice,
-    #legend_title="País",)
+    
+    fig.update_layout(xaxis_title="Ano",
+        yaxis_title=choice,
+        legend_title="País")
+    st.plotly_chart(fig, use_container_width=False)
+
+
+def line_plot_modified(df, choice, teams):
+    if choice == "Gols feitos":
+        df_choice = df.groupby(['team','year']).score.sum().unstack().fillna(0).cumsum(axis=1).T.reset_index()
+    elif choice == "Gols tomados":
+        df_choice = df.groupby(['team','year']).conceded.sum().unstack().fillna(0).cumsum(axis=1).T.reset_index()
+    elif choice == "Vitórias":
+        df_choice = df.groupby(['team','year']).wins.sum().unstack().fillna(0).cumsum(axis=1).T.reset_index()
+    elif choice == "Derrotas":
+        df_choice = df.groupby(['team','year']).losses.sum().unstack().fillna(0).cumsum(axis=1).T.reset_index()
+    
+    fig = px.line(df_choice, x='year', y=teams)
+    
+    fig.update_layout(xaxis_title="Ano",
+        yaxis_title=choice,
+        legend_title="País")
     st.plotly_chart(fig, use_container_width=False)
     
 
+def plot_champion_image(team, url):
+    img = io.imread(url)
+
+    fig = px.imshow(img)
+
+    fig.update_layout(xaxis=dict(showgrid=False),
+              yaxis=dict(showgrid=False)
+    )
+
+    fig.update_xaxes(visible=False)   
+    fig.update_yaxes(visible=False)
+
+    fig.update_layout(
+    title={
+        'text': f"Campeão: {team}",
+        'y':0.2,
+        'x':0.5,
+        'xanchor': 'center',
+        'yanchor': 'top'})
+
+    st.plotly_chart(fig,use_container_width=True)
+
+def get_teams_options(df):
+    options = df['team'].unique().tolist()
+    return options
 
 #%%
 
 # ---- SIDEBAR -----
 
-st.sidebar.markdown("# Ele gosta")
+
 st.sidebar.image('../img/worldcup.png', width=250, output_format='png')
 
 st.sidebar.text("")
 st.sidebar.text("")
-
+    
 st.sidebar.subheader("Filtros:")
 
 #st.sidebar.markdown("**Selecione os anos de Copa do Mundo que você quer analisar:** ")
@@ -102,24 +143,30 @@ st.title('Copas do Mundo - Visualização da Informação')
 
 
 ### Campeões das copas do mundo
-col0_title0, space0 = st.columns((2,2))
+    
 
-with col0_title0:
-    st.subheader("Campeões")
-
-col0_0, col1_0space, col2_0, col3_0 = st.columns((2,1,3,4))
+col0_0, col1_0, col2_0, col3_0 = st.columns((3,0.55,5,3))
 
 with col0_0:
+    st.subheader("Campeões")
     st.markdown("Selecione o ano da copa do mundo que quer ver")
     year_wanted = st.selectbox("",anos_copas[:-1])
     winner = select_winner(year_wanted)
 
 with col2_0:
+    plot_champion_image(winner[0], winner[1])
 
-    st.image(winner[1], output_format='png', width=300)
-    st.text(f"‎ ‎ ‎  ‎  ‎  Campeão: {winner[0]}    ")
+    # Usando st.image
+    #st.image(winner[1], width=300)
+    #st.text(f"‎ ‎ ‎  ‎  ‎ Campeão: {winner[0]}")
 
 with col3_0:
+    st.text("")
+    st.text("")
+    st.text("")
+    st.text("")
+    st.text("")
+
     stats = champions_stats_catcher(year_wanted)
     st.markdown(f"##### :white_check_mark: **Vitórias**: {stats[0]}")
     st.markdown(f"##### :x: **Derrotas**: {stats[1]}")
@@ -132,16 +179,25 @@ with col3_0:
 ### Análise ao longo do tempo (Sumô)
 df_filtered_slider = filter_years(df_final)
 
-col0_title1, space1 = st.columns((2,2))
+col1_1,col2_1, col3_1 = st.columns((3,0.5,8))
 
-col0_1, col1_1space, col2_1, col3_1 = st.columns((2,0.2,3,4))
-
-with col0_1:
+with col1_1:
     st.subheader("Análise ao longo tempo")
-
-with col0_1:
     st.markdown('Esse gráfico tem como objetivo exibir dados acumulados de cada seleção ao longo do tempo: gols feitos, gols tomados, vitórias e derrotas.')    
-    choice = st.selectbox ("O que você quer observar ao longo do tempo?", ["Gols feitos", "Gols tomados", "Vitórias", "Derrotas"])
-with col2_1:
-    plot_filtro(df_filtered_slider, choice)
+    choice_what = st.selectbox("O que você quer observar ao longo do tempo?", ["Gols feitos", "Gols tomados", "Vitórias", "Derrotas"])
+    all_teams_selected = st.selectbox('Você deseja selecionar somente seleções específicas?', ['Incluir todas as seleções','Selecionar times manualmente (Escolhas abaixo)'])
+    if all_teams_selected == 'Selecionar times manualmente (Escolhas abaixo)':
+        choice_teams = st.multiselect("Que seleções você quer selecionar?",
+     options = get_teams_options(df_filtered_slider), 
+     default = get_teams_options(df_filtered_slider))
+
+with col3_1:
+    if (all_teams_selected == 'Incluir todas as seleções'):
+        line_plot(df_filtered_slider, choice_what)
+    else:
+        if len(choice_teams) == 0:
+            st.warning('Por favor, selecione pelo menos uma seleção')
+        else:
+            line_plot_modified(df_filtered_slider, choice_what, choice_teams)
+
 
