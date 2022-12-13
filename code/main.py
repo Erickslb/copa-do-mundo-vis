@@ -1,4 +1,3 @@
-#%%
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -9,19 +8,25 @@ from datetime import date, time, datetime
 import plotly.graph_objects as go
 from skimage import io
 
-#%%
+import urllib.request
+from PIL import Image
+
+
 
 bandeiras = pd.read_csv("https://raw.githubusercontent.com/programacaodinamica/analise-dados/master/dados/countries-fifa-flags.csv")
-campeoes = pd.read_csv("https://raw.githubusercontent.com/Erickslb/copa-do-mundo-vis/main/code/campeoes.csv")
-df_copa = pd.read_csv("https://raw.githubusercontent.com/Erickslb/copa-do-mundo-vis/main/code/df_copas.csv")
+campeoes = pd.read_csv("./campeoes.csv")
+df_copa = pd.read_csv("./df_copas.csv")
 df_final = pd.read_csv("./df_final.csv")
 
+# campeoes = pd.read_csv("https://raw.githubusercontent.com/Erickslb/copa-do-mundo-vis/main/code/campeoes.csv")
+# df_copa = pd.read_csv("https://raw.githubusercontent.com/Erickslb/copa-do-mundo-vis/main/code/df_copas.csv")
+# df_final = pd.read_csv("https://raw.githubusercontent.com/Erickslb/copa-do-mundo-vis/main/code/df_final.csv")
 
-# %%
+
 st.set_page_config(page_title='Copa do Mundo - Vis',
                    layout="wide", page_icon=":soccer:")
 
-# %%
+
 # ---- Funções auxiliares ----
 
 def get_unique_years(df):
@@ -90,11 +95,45 @@ def line_plot_modified(df, choice, teams):
         yaxis_title=choice,
         legend_title="País")
     st.plotly_chart(fig, use_container_width=False)
+
+def third_plot(df, analise, estatistica):
+    # processando dados (gols feitos)
+    home_scores = df[['home_team', 'home_score', 'year']].rename({'home_team':'team', 'home_score':'score'}, axis='columns')
+    away_scores = df[['away_team', 'away_score', 'year']].rename({'away_team':'team', 'away_score':'score'}, axis='columns')
+    feitos = pd.concat([home_scores, away_scores]).reset_index(drop=True).fillna(0)
+
+    # processando (gols tomados)
+    home_conceded = df[['home_team', 'away_score', 'year']].rename({'home_team':'team', 'away_score':'conceded'}, axis='columns')
+    away_conceded = df[['away_team', 'home_score', 'year']].rename({'away_team':'team', 'home_score':'conceded'}, axis='columns')
+    tomados = pd.concat([home_conceded, away_conceded]).reset_index(drop=True).fillna(0)
+    # analise
+    if analise == "Gols feitos":
+        df_measure = feitos.groupby(['team']).score
+        value = "score"
+    elif analise=="Gols tomados":
+        df_measure = tomados.groupby(['team']).conceded
+        value = "conceded"
+    # estatística
+    if estatistica == "Valor absoluto":
+        df_measure = df_measure.sum()
+    if estatistica == "Média":
+        df_measure = df_measure.mean()
+    elif estatistica == "Variância":
+        df_measure = df_measure.var()
+    elif estatistica == "Máximo":
+        df_measure = df_measure.max()
+    
+    df_measure = pd.DataFrame(df_measure.reset_index())
+    fig = px.bar(df_measure.sort_values(by=value,  ascending=False).head(25),  x='team', y=value, width= 600, height=480)
+    fig.update_layout(
+    xaxis_title="Seleção",
+    yaxis_title=analise)
+    fig.update_traces(marker_color='#22A39F')
+    st.plotly_chart(fig, use_container_width=False)
     
 
 def plot_champion_image(team, url):
     img = io.imread(url)
-
     fig = px.imshow(img)
 
     fig.update_layout(xaxis=dict(showgrid=False),
@@ -118,7 +157,7 @@ def get_teams_options(df):
     options = df['team'].unique().tolist()
     return options
 
-#%%
+
 
 # ---- SIDEBAR -----
 
@@ -127,37 +166,63 @@ st.sidebar.image('../img/worldcup.png', width=250, output_format='png')
 
 st.sidebar.text("")
 st.sidebar.text("")
-    
+
 st.sidebar.subheader("Filtros:")
 
-#st.sidebar.markdown("**Selecione os anos de Copa do Mundo que você quer analisar:** ")
 anos_copas = get_unique_years(df_copa)  
 ano_comeco, ano_final = st.sidebar.select_slider('Selecione os anos que você deseja incluir', anos_copas, [1930, 2022])
 
-# %%
+
 # ---- Principal -----
 
 ## INTRODUÇÃO 
 
-st.title('Copas do Mundo - Visualização da Informação')
+col0_introduction0, col1_introduction0 = st.columns((8,4))
+with col0_introduction0:
+    st.title('Copas do Mundo - Visualização da Informação')
+
+with col1_introduction0:
+    st.text("")
+    st.text("")
+    st.markdown("[Repositório no Github](https://github.com/Erickslb/copa-do-mundo-vis)")
+
+col0_introduction1, col1_introduction1 = st.columns((8,2))
+
+with col0_introduction1:
+    st.markdown("A Copa do Mundo é um campeonato mundial de futebol, que acontece a cada quatro anos e é organizada pela FIFA (Federação Internacional de Futebol). Nações de todos os continentes passam por jogos eliminatórios para se classificar e poder disputar a taça. Esse é o campeonato mais aguardado por amantes do esporte, nele está presente o mais alto nível de futebol.")
+    st.markdown("Você já se interessou alguma vez por saber quais seleções são campeãs das Copas do Mundo da FIFA ou quem são as seleções que mais se destacam nesse campeonato e não teve paciência para procurar? Se sim, esse é o app certo para você: Você pode verificar os campeões anteriores facilmente e além disso pode ver as campanhas das seleções ao longo de todas as Copas.")
+
+
+## Dados selecionados pelo filtro de anos
+
+col0_data0, col1_data0 = st.columns((8,2))
+
+with col0_data0:
+    st.subheader("Dados selecionados")
+    st.markdown("Fonte dos dados utilizados no projeto: [International football results from 1872 to 2022](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017?select=results.csv)")
+    st.markdown("Aqui você pode ver os dados selecionados após a filtragem no slider da barra lateral")
+    
+see_data = st.expander('Você pode clicar aqui para ver os dados utilizados')
+filtered_data = filter_years(df_copa)
+with see_data:
+    st.dataframe(data=filtered_data)
 
 
 ### Campeões das copas do mundo
-    
 
 col0_0, col1_0, col2_0, col3_0 = st.columns((3,0.55,5,3))
 
 with col0_0:
     st.subheader("Campeões")
-    st.markdown("Selecione o ano da copa do mundo que quer ver")
-    year_wanted = st.selectbox("",anos_copas[:-1])
+    st.markdown("Quer saber qual o campeão da copa do mundo de algum ano específico?")
+    year_wanted = st.selectbox("Selecione o ano",anos_copas[:-1])
     winner = select_winner(year_wanted)
-
+    
 with col2_0:
     plot_champion_image(winner[0], winner[1])
 
     # Usando st.image
-    #st.image(winner[1], width=300)
+    #st.image(winner[1], width=350)
     #st.text(f"‎ ‎ ‎  ‎  ‎ Campeão: {winner[0]}")
 
 with col3_0:
@@ -174,12 +239,11 @@ with col3_0:
     st.markdown(f"##### 🥅 **Gols tomados**: {stats[3]}")
     
 
-# %%
 
 ### Análise ao longo do tempo (Sumô)
 df_filtered_slider = filter_years(df_final)
 
-col1_1,col2_1, col3_1 = st.columns((3,0.5,8))
+col1_1, col2_1, col3_1 = st.columns((3,0.5,8))
 
 with col1_1:
     st.subheader("Análise ao longo tempo")
@@ -201,3 +265,12 @@ with col3_1:
             line_plot_modified(df_filtered_slider, choice_what, choice_teams)
 
 
+col1_2, col2_2, col3_2 = st.columns((3,0.5,8))
+
+with col1_2:
+    st.subheader("Análise por seleção")
+    st.markdown('Esse gráfico tem como objetivo análisar o desempenho de cada seleção. Qual foi a seleção que fez mais gols em um único jogo? Qual a média de gols das melhores seleções?')    
+    analise = st.selectbox ("O que você quer analisar?", ["Gols feitos", "Gols tomados"])
+    estatistica = st.selectbox ("Qual a medida de resumo?", ["Valor absoluto","Média", "Máximo", "Variância"])
+with col3_2:
+    third_plot(filtered_data, analise, estatistica)
