@@ -6,12 +6,15 @@ import plotly.express as px
 df_final = pd.read_csv("df_final.csv")
 copas = pd.read_csv("df_copas.csv")
 
-# processando dados
+# processando dados (gols feitos)
 home_scores = copas[['home_team', 'home_score', 'year']].rename({'home_team':'team', 'home_score':'score'}, axis='columns')
 away_scores = copas[['away_team', 'away_score', 'year']].rename({'away_team':'team', 'away_score':'score'}, axis='columns')
-data = pd.concat([home_scores, away_scores]).reset_index(drop=True).fillna(0)
+feitos = pd.concat([home_scores, away_scores]).reset_index(drop=True).fillna(0)
 
-
+# processando (gols tomados)
+home_conceded = copas[['home_team', 'away_score', 'year']].rename({'home_team':'team', 'away_score':'conceded'}, axis='columns')
+away_conceded = copas[['away_team', 'home_score', 'year']].rename({'away_team':'team', 'home_score':'conceded'}, axis='columns')
+tomados = pd.concat([home_conceded, away_conceded]).reset_index(drop=True).fillna(0)
 
 st.set_page_config(page_title="My App",layout='wide')
 
@@ -55,18 +58,22 @@ with col2:
 def plot_filtro2(data, analise, estatistica):
     # analise
     if analise == "Gols feitos":
-        df = data.groupby(['team']).score
-    else:
-        df = data.groupby(['team']).score
+        df = feitos.groupby(['team']).score
+    elif analise=="Gols tomados":
+        df = tomados.groupby(['team']).conceded
     # estatística
     if estatistica == "Média":
         df = df.mean()
     elif estatistica == "Variância":
         df = df.var()
-    elif estatistica == " Máximo":
+    elif estatistica == "Máximo":
         df = df.max()
+    
     df = pd.DataFrame(df.reset_index())
     fig = px.bar(df.sort_values(by="score",  ascending=False).head(25),  x='team', y='score')
+    fig.update_layout(
+    xaxis_title="Seleção",
+    yaxis_title=analise)
     return st.plotly_chart(fig, use_container_width=False)
 
 
