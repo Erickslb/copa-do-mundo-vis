@@ -1,4 +1,3 @@
-from pytz import country_names
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -32,13 +31,35 @@ def plot_filtro(df_final, choice):
 ##INTRODUÇÃO##
 st.title('TrabViz - Análise das copas')
 
-### GRÁFICO PRINCIPAL###
+### ANÁLISE POR TEMPO###
 col1, col2= st.columns([1,3])
 with col1:
     st.subheader("Análise ao longo do tempo")
-row5_spacer1, row5_1, row5_spacer2, row5_2, row5_spacer3  = st.columns((.2, 3.3, .4, .2, .2))
+
 with col1:
     st.markdown('Esse gráfico tem como objetivo exibir dados acumulados de cada seleção ao longo do tempo: gols feitos, gols tomados, vitórias e derrotas.')    
     choice = st.selectbox ("O que você quer observar ao longo do tempo?", ["Gols dados", "Gols recebidos", "Vitórias", "Derrotas"])
 with col2:
     plot_filtro(df_final, choice)
+
+
+
+### ANÁLISE POR SELEÇÃO ###
+col3, col4= st.columns([1,3])
+with col3:
+    st.subheader("Análise por seleção")
+
+with col3:
+    st.markdown('Esse gráfico tem como objetivo exibir dados acumulados de cada seleção ao longo do tempo: gols feitos, gols tomados, vitórias e derrotas.')    
+    analise = st.selectbox ("O que você quer analisar?", ["Gols dados", "Gols recebidos", "Vitórias", "Derrotas"])
+    copa = st.selectbox ("Qual a estatística?", ["Média", "Mediana", "Variância"])
+with col4:
+    #plot_filtro(df_final, choice)
+    df = df_final.groupby(['team','year']).score.sum().unstack().fillna(0).cumsum(axis=1).T.reset_index()
+    chart_data = pd.DataFrame(
+    np.random.randn(20, 3),
+    columns=["a", "b", "c"])
+
+    st.bar_chart(chart_data)
+    #fig = px.line(df, x='year', y=df.columns[1:-1])
+    #st.plotly_chart(fig, use_container_width=False)
