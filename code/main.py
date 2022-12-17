@@ -14,9 +14,9 @@ from PIL import Image
 
 
 bandeiras = pd.read_csv("https://raw.githubusercontent.com/programacaodinamica/analise-dados/master/dados/countries-fifa-flags.csv")
-campeoes = pd.read_csv("./campeoes.csv")
-df_copa = pd.read_csv("./df_copas.csv")
-df_final = pd.read_csv("./df_final.csv")
+campeoes = pd.read_csv("./code/campeoes.csv")
+df_copa = pd.read_csv("./code/df_copas.csv")
+df_final = pd.read_csv("./code/df_final.csv")
 
 
 st.set_page_config(page_title='Copa do Mundo - Vis',
