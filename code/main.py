@@ -18,10 +18,6 @@ campeoes = pd.read_csv("./campeoes.csv")
 df_copa = pd.read_csv("./df_copas.csv")
 df_final = pd.read_csv("./df_final.csv")
 
-# campeoes = pd.read_csv("https://raw.githubusercontent.com/Erickslb/copa-do-mundo-vis/main/code/campeoes.csv")
-# df_copa = pd.read_csv("https://raw.githubusercontent.com/Erickslb/copa-do-mundo-vis/main/code/df_copas.csv")
-# df_final = pd.read_csv("https://raw.githubusercontent.com/Erickslb/copa-do-mundo-vis/main/code/df_final.csv")
-
 
 st.set_page_config(page_title='Copa do Mundo - Vis',
                    layout="wide", page_icon=":soccer:")
@@ -96,7 +92,7 @@ def line_plot_modified(df, choice, teams):
         legend_title="País")
     st.plotly_chart(fig, use_container_width=False)
 
-def third_plot(df, analise, estatistica):
+def third_plot(df, analise, teams):
     # processando dados (gols feitos)
     home_scores = df[['home_team', 'home_score', 'year']].rename({'home_team':'team', 'home_score':'score'}, axis='columns')
     away_scores = df[['away_team', 'away_score', 'year']].rename({'away_team':'team', 'away_score':'score'}, axis='columns')
@@ -108,23 +104,15 @@ def third_plot(df, analise, estatistica):
     tomados = pd.concat([home_conceded, away_conceded]).reset_index(drop=True).fillna(0)
     # analise
     if analise == "Gols feitos":
-        df_measure = feitos.groupby(['team']).score
+        df_choose = feitos
         value = "score"
     elif analise=="Gols tomados":
-        df_measure = tomados.groupby(['team']).conceded
+        df_choose = tomados
         value = "conceded"
-    # estatística
-    if estatistica == "Valor absoluto":
-        df_measure = df_measure.sum()
-    if estatistica == "Média":
-        df_measure = df_measure.mean()
-    elif estatistica == "Variância":
-        df_measure = df_measure.var()
-    elif estatistica == "Máximo":
-        df_measure = df_measure.max()
+
+    df_choose = df_choose[df_choose['team'].isin(teams)].reset_index(drop = True)
     
-    df_measure = pd.DataFrame(df_measure.reset_index())
-    fig = px.bar(df_measure.sort_values(by=value,  ascending=False).head(25),  x='team', y=value, width= 600, height=480)
+    fig = px.box(df_choose,  x='team', y=value, width= 600, height=480)
     fig.update_layout(
     xaxis_title="Seleção",
     yaxis_title=analise)
@@ -268,6 +256,18 @@ with col1_2:
     st.subheader("Análise por seleção")
     st.markdown('Esse gráfico tem como objetivo análisar o desempenho de cada seleção. Qual foi a seleção que fez mais gols em um único jogo? Qual a média de gols das melhores seleções?')    
     analise = st.selectbox ("O que você quer analisar?", ["Gols feitos", "Gols tomados"])
-    estatistica = st.selectbox ("Qual a medida de resumo?", ["Valor absoluto","Média", "Máximo", "Variância"])
+
+    all_teams_selected2 = st.selectbox('Você deseja selecionar somente seleções específicas?', ['Incluir todas as seleções ','Selecionar times manualmente (Escolhas abaixo) '])
+    if all_teams_selected2 == 'Selecionar times manualmente (Escolhas abaixo) ':
+        choice_teams2 = st.multiselect("Que seleções você quer selecionar?",
+     options = get_teams_options(df_filtered_slider), 
+     default = get_teams_options(df_filtered_slider))
+
 with col3_2:
-    third_plot(filtered_data, analise, estatistica)
+    if (all_teams_selected2 == 'Incluir todas as seleções '):
+        third_plot(filtered_data, analise, get_teams_options(df_filtered_slider))
+    else:
+        if len(choice_teams2) == 0:
+            st.warning('Por favor, selecione pelo menos uma seleção')
+        else:
+            third_plot(filtered_data, analise, choice_teams2)
