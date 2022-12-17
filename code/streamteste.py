@@ -46,7 +46,7 @@ with col2:
 
 
 
-def plot_filtro2(copas, analise, estatistica):
+def plot_filtro2(copas, analise):
     # processando dados (gols feitos)
     home_scores = copas[['home_team', 'home_score', 'year']].rename({'home_team':'team', 'home_score':'score'}, axis='columns')
     away_scores = copas[['away_team', 'away_score', 'year']].rename({'away_team':'team', 'away_score':'score'}, axis='columns')
@@ -58,23 +58,14 @@ def plot_filtro2(copas, analise, estatistica):
     tomados = pd.concat([home_conceded, away_conceded]).reset_index(drop=True).fillna(0)
     # analise
     if analise == "Gols feitos":
-        df = feitos.groupby(['team']).score
+        df = feitos
         value = "score"
     elif analise=="Gols tomados":
-        df = tomados.groupby(['team']).conceded
+        df = tomados
         value = "conceded"
-    # estatística
-    if estatistica == "Valor absoluto":
-        df = df.sum()
-    if estatistica == "Média":
-        df = df.mean()
-    elif estatistica == "Variância":
-        df = df.var()
-    elif estatistica == "Máximo":
-        df = df.max()
     
     df = pd.DataFrame(df.reset_index())
-    fig = px.bar(df.sort_values(by=value,  ascending=False).head(25),  x='team', y=value)
+    fig = px.box(df.sort_values(by=value,  ascending=False).head(25),  x='team', y=value)
     fig.update_layout(
     xaxis_title="Seleção",
     yaxis_title=analise)
@@ -90,6 +81,6 @@ with col3:
 with col3:
     st.markdown('Esse gráfico tem como objetivo exibir dados acumulados de cada seleção ao longo do tempo: gols feitos, gols tomados, vitórias e derrotas.')    
     analise = st.selectbox ("O que você quer analisar?", ["Gols feitos", "Gols tomados"])
-    estatistica = st.selectbox ("Qual a estatística?", ["Valor absoluto","Média", "Máximo", "Variância"])
+    #estatistica = st.selectbox ("Qual a estatística?", ["Valor absoluto","Média", "Máximo", "Variância"])
 with col4:
-    plot_filtro2(copas, analise, estatistica)
+    plot_filtro2(copas, analise)
