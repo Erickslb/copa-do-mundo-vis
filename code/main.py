@@ -132,8 +132,9 @@ def third_plot(df, analise, estatistica):
     st.plotly_chart(fig, use_container_width=False)
     
 
-def plot_champion_image(team, url):
-    img = io.imread(url)
+def plot_champion_image(team):
+    img_dir = '../img/' + team + '.png'
+    img = io.imread(img_dir)
     fig = px.imshow(img)
 
     fig.update_layout(xaxis=dict(showgrid=False),
@@ -219,11 +220,7 @@ with col0_0:
     winner = select_winner(year_wanted)
     
 with col2_0:
-    plot_champion_image(winner[0], winner[1])
-
-    # Usando st.image
-    #st.image(winner[1], width=350)
-    #st.text(f"‎ ‎ ‎  ‎  ‎ Campeão: {winner[0]}")
+    plot_champion_image(winner[0])
 
 with col3_0:
     st.text("")
