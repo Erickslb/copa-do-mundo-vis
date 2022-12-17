@@ -121,7 +121,7 @@ def third_plot(df, analise, teams):
     
 
 def plot_champion_image(team):
-    img_dir = '../img/' + team + '.png'
+    img_dir = './img/' + team + '.png'
     img = io.imread(img_dir)
     fig = px.imshow(img)
 
@@ -151,7 +151,7 @@ def get_teams_options(df):
 # ---- SIDEBAR -----
 
 
-st.sidebar.image('../img/worldcup.png', width=250, output_format='png')
+st.sidebar.image('./img/worldcup.png', width=250, output_format='png')
 
 st.sidebar.text("")
 st.sidebar.text("")
