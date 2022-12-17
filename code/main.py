@@ -11,8 +11,6 @@ from skimage import io
 import urllib.request
 from PIL import Image
 
-
-
 bandeiras = pd.read_csv("https://raw.githubusercontent.com/programacaodinamica/analise-dados/master/dados/countries-fifa-flags.csv")
 campeoes = pd.read_csv("./code/campeoes.csv")
 df_copa = pd.read_csv("./code/df_copas.csv")
@@ -67,7 +65,7 @@ def line_plot(df, choice):
     elif choice == "Derrotas":
         df_choice = df.groupby(['team','year']).losses.sum().unstack().fillna(0).cumsum(axis=1).T.reset_index()
     
-    fig = px.line(df_choice, x='year', y=df_choice.columns)
+    fig = px.line(df_choice, x='year', y=df_choice.columns, width=700, height=500)
     
     fig.update_layout(xaxis_title="Ano",
         yaxis_title=choice,
@@ -85,7 +83,7 @@ def line_plot_modified(df, choice, teams):
     elif choice == "Derrotas":
         df_choice = df.groupby(['team','year']).losses.sum().unstack().fillna(0).cumsum(axis=1).T.reset_index()
     
-    fig = px.line(df_choice, x='year', y=teams)
+    fig = px.line(df_choice, x='year', y=teams, width= 700, height=500)
     
     fig.update_layout(xaxis_title="Ano",
         yaxis_title=choice,
@@ -112,7 +110,7 @@ def third_plot(df, analise, teams):
 
     df_choose = df_choose[df_choose['team'].isin(teams)].reset_index(drop = True)
     
-    fig = px.box(df_choose,  x='team', y=value, width= 600, height=480)
+    fig = px.box(df_choose,  x='team', y=value, width= 700, height=500)
     fig.update_layout(
     xaxis_title="Seleção",
     yaxis_title=analise)
@@ -160,6 +158,15 @@ st.sidebar.subheader("Filtros:")
 
 anos_copas = get_unique_years(df_copa)  
 ano_comeco, ano_final = st.sidebar.select_slider('Selecione os anos que você deseja incluir', anos_copas, [1930, 2022])
+
+df_filtered_slider = filter_years(df_final)
+
+all_teams_selected = st.sidebar.selectbox('Você deseja selecionar somente seleções específicas?', ['Incluir todas as seleções','Selecionar times manualmente (Escolhas abaixo)'])
+if (all_teams_selected == 'Selecionar times manualmente (Escolhas abaixo)'):
+    choice_teams = st.sidebar.multiselect("Que seleções você quer selecionar?",
+    options = get_teams_options(df_filtered_slider), 
+    default = get_teams_options(df_filtered_slider))
+
 
 
 # ---- Principal -----
@@ -226,7 +233,6 @@ with col3_0:
 
 
 ### Análise ao longo do tempo (Sumô)
-df_filtered_slider = filter_years(df_final)
 
 col1_1, col2_1, col3_1 = st.columns((3,0.5,8))
 
@@ -234,11 +240,6 @@ with col1_1:
     st.subheader("Análise ao longo tempo")
     st.markdown('Esse gráfico tem como objetivo exibir dados acumulados de cada seleção ao longo do tempo: gols feitos, gols tomados, vitórias e derrotas.')    
     choice_what = st.selectbox("O que você quer observar ao longo do tempo?", ["Gols feitos", "Gols tomados", "Vitórias", "Derrotas"])
-    all_teams_selected = st.selectbox('Você deseja selecionar somente seleções específicas?', ['Incluir todas as seleções','Selecionar times manualmente (Escolhas abaixo)'])
-    if all_teams_selected == 'Selecionar times manualmente (Escolhas abaixo)':
-        choice_teams = st.multiselect("Que seleções você quer selecionar?",
-     options = get_teams_options(df_filtered_slider), 
-     default = get_teams_options(df_filtered_slider))
 
 with col3_1:
     if (all_teams_selected == 'Incluir todas as seleções'):
@@ -257,17 +258,13 @@ with col1_2:
     st.markdown('Esse gráfico tem como objetivo análisar o desempenho de cada seleção. Qual foi a seleção que fez mais gols em um único jogo? Qual a média de gols das melhores seleções?')    
     analise = st.selectbox ("O que você quer analisar?", ["Gols feitos", "Gols tomados"])
 
-    all_teams_selected2 = st.selectbox('Você deseja selecionar somente seleções específicas?', ['Incluir todas as seleções ','Selecionar times manualmente (Escolhas abaixo) '])
-    if all_teams_selected2 == 'Selecionar times manualmente (Escolhas abaixo) ':
-        choice_teams2 = st.multiselect("Que seleções você quer selecionar?",
-     options = get_teams_options(df_filtered_slider), 
-     default = get_teams_options(df_filtered_slider))
+
 
 with col3_2:
-    if (all_teams_selected2 == 'Incluir todas as seleções '):
+    if (all_teams_selected == 'Incluir todas as seleções'):
         third_plot(filtered_data, analise, get_teams_options(df_filtered_slider))
     else:
-        if len(choice_teams2) == 0:
+        if len(choice_teams) == 0:
             st.warning('Por favor, selecione pelo menos uma seleção')
         else:
-            third_plot(filtered_data, analise, choice_teams2)
+            third_plot(filtered_data, analise, choice_teams)
